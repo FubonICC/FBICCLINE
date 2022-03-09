@@ -49,9 +49,9 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     message = LocationSendMessage(
-        title="台北車站"
-        address="台北車站"
-        latitude="22.6931019"
+        title="台北車站",
+        address="台北車站",
+        latitude="22.6931019",
         longitude="120.2607194"
     )
     line_bot_api.reply_message(event.reply_token, message)
