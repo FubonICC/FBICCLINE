@@ -109,9 +109,10 @@ def Carousel_Template():
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Number_1_in_green_rounded_square.svg/200px-Number_1_in_green_rounded_square.svg.png',
-                    title='這是第一塊模板',
-                    text='一個模板可以有三個按鈕',
+                    thumbnail_image_url='https://navy.mnd.gov.tw/Photo/PartnerHTML/201612151209_194894.jpg',
+                    title='海軍一二四艦隊',
+                    text='主力軍艦：康定級軍艦',
+                    text='駐地：左營軍港',
                     actions=[
                         PostbackTemplateAction(
                             label='回傳一個訊息',
@@ -123,7 +124,7 @@ def Carousel_Template():
                         ),
                         URITemplateAction(
                             label='進入1的網頁',
-                            uri='https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Number_1_in_green_rounded_square.svg/200px-Number_1_in_green_rounded_square.svg.png'
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30045'
                         )
                     ]
                 ),
