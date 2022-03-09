@@ -112,10 +112,9 @@ def Carousel_Template():
                     thumbnail_image_url='https://navy.mnd.gov.tw/Photo/PartnerHTML/201612151209_194894.jpg',
                     title='海軍一二四艦隊',
                     text='主力軍艦：康定級軍艦',
-                    text='駐地：左營軍港',
                     actions=[
                         PostbackTemplateAction(
-                            label='回傳一個訊息',
+                            label='駐地：左營軍港',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
                         MessageTemplateAction(
@@ -123,7 +122,7 @@ def Carousel_Template():
                             text='我知道這是1'
                         ),
                         URITemplateAction(
-                            label='進入1的網頁',
+                            label='了解124艦隊',
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30045'
                         )
                     ]
