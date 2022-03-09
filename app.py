@@ -67,12 +67,36 @@ def handle_message(event):
     elif '功能列表' in msg:
         message = function_list()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '台北車站' in msg:
+    elif '左營軍港' in msg:
         message = LocationSendMessage(
-            title="台北車站",
-            address="台北車站",
+            title="左營軍港",
+            address="左營軍港",
             latitude="22.6931019",
             longitude="120.2607194"
+         )
+        line_bot_api.reply_message(event.reply_token, message)
+    elif '蘇澳軍港' in msg:
+        message = LocationSendMessage(
+            title="蘇澳軍港",
+            address="蘇澳軍港",
+            latitude="24.5955819",
+            longitude="121.8564983"
+         )
+        line_bot_api.reply_message(event.reply_token, message)
+    elif '基隆軍港' in msg:
+        message = LocationSendMessage(
+            title="基隆軍港",
+            address="基隆軍港",
+            latitude="25.1372691",
+            longitude="121.7407556"
+         )
+        line_bot_api.reply_message(event.reply_token, message)
+    elif '馬公軍港' in msg:
+        message = LocationSendMessage(
+            title="馬公軍港",
+            address="馬公軍港",
+            latitude="23.5541179",
+            longitude="119.5635929"
          )
         line_bot_api.reply_message(event.reply_token, message)
     else:
