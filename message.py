@@ -243,17 +243,17 @@ def Carousel_Template3():
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://zh.wikipedia.org/wiki/File:UAV_9717_Display_at_No.11_Pier_Left_Rear_View_20130504.jpg',
+                    thumbnail_image_url='https://upload.wikimedia.org/wikipedia/commons/7/71/UAV_9717_Display_at_No.11_Pier_Left_Rear_View_20130504.jpg',
                     title='海軍海上戰術偵搜大隊',
                     text='銳鳶無人機',
                     actions=[
                         PostbackTemplateAction(
                             label='駐地：屏東空軍基地',
-                            data='將這個訊息偷偷回傳給機器人'
+                            data='A'
                         ),
-                        MessageTemplateAction(
-                            label='用戶發送訊息',
-                            text='我知道這是1'
+                        PostbackTemplateAction(
+                            label='相關加給',
+                            data='A'
                         ),
                         URITemplateAction(
                             label='前往網頁',
@@ -261,6 +261,11 @@ def Carousel_Template3():
                         )
                     ]
                 ),
+                elif isinstance(event, PostbackEvent):  # 如果有回傳值事件
+                    if event.postback.data[0:1] == "A":  # 如果回傳值為「選擇地區」
+                        line_bot_api.reply_message(  # 回復訊息文字
+                        event.reply_token,
+                        TextSendMessage(text='戰鬥加給3000~5000元')
                 CarouselColumn(
                     thumbnail_image_url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuo7n2_HNSFuT3T7Z9PUZmn1SDM6G6-iXfRC3FxdGTj7X1Wr0RzA',
                     title='這是第二塊模板',
