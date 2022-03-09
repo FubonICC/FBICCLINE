@@ -103,7 +103,7 @@ def Confirm_Template():
 
 #旋轉木馬按鈕訊息介面
 
-def Carousel_Template(1):
+def Carousel_Template1():
     message = TemplateSendMessage(
         alt_text='海軍艦隊',
         template=CarouselTemplate(
@@ -170,7 +170,7 @@ def Carousel_Template(1):
     )
     return message
 
-def Carousel_Template(2):
+def Carousel_Template2():
     message = TemplateSendMessage(
         alt_text='海軍陸戰隊',
         template=CarouselTemplate(
