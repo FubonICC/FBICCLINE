@@ -58,8 +58,11 @@ def handle_message(event):
     elif '註冊會員' in msg:
         message = Confirm_Template()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '旋轉木馬' in msg:
-        message = Carousel_Template()
+    elif '海軍艦隊' in msg:
+        message = Carousel_Template(1)
+        line_bot_api.reply_message(event.reply_token, message)
+    elif '海軍陸戰隊' in msg:
+        message = Carousel_Template(2)
         line_bot_api.reply_message(event.reply_token, message)
     elif '圖片畫廊' in msg:
         message = test()
