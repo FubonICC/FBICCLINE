@@ -48,16 +48,6 @@ def callback():
 # 處理訊息
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    message = LocationSendMessage(
-        title="台北車站",
-        address="台北車站",
-        latitude="22.6931019",
-        longitude="120.2607194"
-    )
-    line_bot_api.reply_message(event.reply_token, message)
-
-@handler.add(MessageEvent, message=TextMessage)
-def handle_message(event):
     msg = event.message.text
     if '最新合作廠商' in msg:
         message = imagemap_message()
@@ -76,6 +66,14 @@ def handle_message(event):
         line_bot_api.reply_message(event.reply_token, message)
     elif '功能列表' in msg:
         message = function_list()
+        line_bot_api.reply_message(event.reply_token, message)
+    elif '台北車站' in msg:
+        message = LocationSendMessage(
+            title="台北車站",
+            address="台北車站",
+            latitude="22.6931019",
+            longitude="120.2607194"
+         )
         line_bot_api.reply_message(event.reply_token, message)
     else:
         message = TextSendMessage(text="你說的是不是:" + event.message.text)
