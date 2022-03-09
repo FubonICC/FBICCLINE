@@ -239,16 +239,16 @@ def Carousel_Template2():
 
 def Carousel_Template3():
     message = TemplateSendMessage(
-        alt_text='海軍通訊系統指揮部',
+        alt_text='海軍艦隊陸岸單位',
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://navy.mnd.gov.tw/Photo/PartnerHTML/201612211656_260768.png',
-                    title='陸戰九九旅',
-                    text='鐵軍：鋼鐵勁旅，防衛固守，有如銅牆鐵壁之堅強勁旅',
+                    thumbnail_image_url='https://zh.wikipedia.org/wiki/File:UAV_9717_Display_at_No.11_Pier_Left_Rear_View_20130504.jpg',
+                    title='海軍海上戰術偵搜大隊',
+                    text='銳鳶無人機',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：林園',
+                            label='駐地：屏東空軍基地',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
                         MessageTemplateAction(
@@ -256,8 +256,8 @@ def Carousel_Template3():
                             text='我知道這是1'
                         ),
                         URITemplateAction(
-                            label='了解陸戰九九旅',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
+                            label='前往網頁',
+                            uri='https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%B5%B7%E8%BB%8D%E6%B5%B7%E4%B8%8A%E6%88%B0%E8%A1%93%E5%81%B5%E8%92%90%E5%A4%A7%E9%9A%8A'
                         )
                     ]
                 ),

@@ -64,6 +64,9 @@ def handle_message(event):
     elif '海軍陸戰隊' in msg:
         message = Carousel_Template2()
         line_bot_api.reply_message(event.reply_token, message)
+    elif '海軍艦隊陸岸' in msg:
+        message = Carousel_Template3()
+        line_bot_api.reply_message(event.reply_token, message)
     elif '圖片畫廊' in msg:
         message = test()
         line_bot_api.reply_message(event.reply_token, message)
