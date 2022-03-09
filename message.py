@@ -251,55 +251,57 @@ def Carousel_Template3():
                             label='駐地：屏東空軍基地',
                             data='A'
                         ),
-                        PostbackTemplateAction(
-                            label='相關加給',
-                            data='A'
-                        ),
                         URITemplateAction(
                             label='前往網頁',
                             uri='https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%B5%B7%E8%BB%8D%E6%B5%B7%E4%B8%8A%E6%88%B0%E8%A1%93%E5%81%B5%E8%92%90%E5%A4%A7%E9%9A%8A'
                         )
                     ]
                 ),
-
                 CarouselColumn(
-                    thumbnail_image_url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuo7n2_HNSFuT3T7Z9PUZmn1SDM6G6-iXfRC3FxdGTj7X1Wr0RzA',
-                    title='這是第二塊模板',
-                    text='副標題可以自己改',
+                    thumbnail_image_url='https://navy.mnd.gov.tw/Photo/OtherHTML/201610261134_976298.jpg',
+                    title='海軍反潛航空大隊',
+                    text='S-70C反潛直升機、500MD反潛直昇機',
                     actions=[
                         PostbackTemplateAction(
-                            label='回傳一個訊息',
+                            label='駐地：左營',
                             data='這是ID=2'
                         ),
-                        MessageTemplateAction(
-                            label='用戶發送訊息',
-                            text='我知道這是2'
-                        ),
                         URITemplateAction(
-                            label='進入2的網頁',
-                            uri='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Number_2_in_light_blue_rounded_square.svg/200px-Number_2_in_light_blue_rounded_square.svg.png'
+                            label='前往網頁',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30057'
                         )
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Number_3_in_yellow_rounded_square.svg/200px-Number_3_in_yellow_rounded_square.svg.png',
-                    title='這是第三個模塊',
-                    text='最多可以放十個',
+                    thumbnail_image_url='https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.6435-9/126933144_1746128488898865_1472026323777596786_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=ufSob08X-pkAX_x7kDe&_nc_ht=scontent.fkhh1-1.fna&oh=00_AT8K51NCTW9jyHCVlP1DJnAUQufMhV9356ZupivPXlxoqg&oe=624FDFD3',
+                    title='海軍海洋監偵指揮部',
+                    text='海軍雷達站',
                     actions=[
                         PostbackTemplateAction(
-                            label='回傳一個訊息',
-                            data='這是ID=3'
-                        ),
-                        MessageTemplateAction(
-                            label='用戶發送訊息',
-                            text='我知道這是3'
+                            label='駐地：全台各地',
+                            data='這是ID=2'
                         ),
                         URITemplateAction(
-                            label='uri2',
-                            uri='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Number_3_in_yellow_rounded_square.svg/200px-Number_3_in_yellow_rounded_square.svg.png'
+                            label='前往網頁',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30054'
                         )
                     ]
-                )
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2021/12/26/realtime/14886452.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=800&exp=3600&w=930&nt=1',
+                    title='海軍海鋒大隊',
+                    text='海軍飛彈部隊',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：全台各地',
+                            data='這是ID=2'
+                        ),
+                        URITemplateAction(
+                            label='前往網頁',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30056'
+                        )
+                    ]
+                ),
             ]
         )
     )
