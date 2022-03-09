@@ -70,7 +70,7 @@ def handle_message(event):
     elif '左營軍港' in msg:
         message = LocationSendMessage(
             title="左營軍港",
-            address="左營軍港",
+            address="左營海軍基地",
             latitude="22.6931019",
             longitude="120.2607194"
          )
@@ -78,23 +78,23 @@ def handle_message(event):
     elif '蘇澳軍港' in msg:
         message = LocationSendMessage(
             title="蘇澳軍港",
-            address="蘇澳軍港",
-            latitude="24.5955819",
-            longitude="121.8564983"
+            address="中正軍港",
+            latitude="24.5997598",
+            longitude="121.8582808"
          )
         line_bot_api.reply_message(event.reply_token, message)
     elif '基隆軍港' in msg:
         message = LocationSendMessage(
             title="基隆軍港",
-            address="基隆軍港",
-            latitude="25.1372691",
-            longitude="121.7407556"
+            address="威海營區",
+            latitude="25.1363818",
+            longitude="121.7449721"
          )
         line_bot_api.reply_message(event.reply_token, message)
     elif '馬公軍港' in msg:
         message = LocationSendMessage(
-            title="馬公軍港",
-            address="馬公軍港",
+            title="馬公基地",
+            address="馬公港",
             latitude="23.5541179",
             longitude="119.5635929"
          )
