@@ -48,8 +48,6 @@ def callback():
 # 處理訊息
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    message =  textsendmessage(text="你說的是不是:" + event.message.text )
-    line_bot_api.reply_message(event.reply_token, message)
     msg = event.message.text
     if '最新合作廠商' in msg:
         message = imagemap_message()
@@ -70,7 +68,7 @@ def handle_message(event):
         message = function_list()
         line_bot_api.reply_message(event.reply_token, message)
     else:
-        message = TextSendMessage(text=msg)
+        message = TextSendMessage(text="你說的是不是:" + event.message.text)
         line_bot_api.reply_message(event.reply_token, message)
 
 @handler.add(PostbackEvent)
