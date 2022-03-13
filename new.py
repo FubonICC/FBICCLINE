@@ -9,7 +9,7 @@ def test():
         template=ImageCarouselTemplate(
             columns=[
                 ImageCarouselColumn(
-                    image_url="https://drive.google.com/file/d/1NzmAMTnsLVI7w2r0R-gK1I6Xq2ebIPvv/view?usp=sharing",
+                    image_url="https://static.wixstatic.com/media/f96bc7_b07e21aa4316452a8d135e6d9d5a331a~mv2.png/v1/fill/w_713,h_398,al_c,q_85,usm_0.66_1.00_0.01/2022%E6%B5%B7%E8%BB%8D%E5%BD%A2%E8%B1%A1%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2.webp",
                     action=URITemplateAction(
                         label="2022形象影片",
                         uri="https://www.youtube.com/watch?v=SmeYkoJwL3A"
