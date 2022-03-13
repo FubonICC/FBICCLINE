@@ -117,9 +117,9 @@ def Carousel_Template1():
                             label='駐地：左營軍港',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
-                        PostbackTemplateAction(
+                        MessageAction(
                             label='詳細說明',
-                            displayText='124艦隊駐地於左營軍港、主力作戰艦為康定級軍艦'
+                            text='124艦隊駐地於左營軍港、主力作戰艦為康定級軍艦'
                         ),
                         URITemplateAction(
                             label='了解124艦隊',
