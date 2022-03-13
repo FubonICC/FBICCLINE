@@ -5,7 +5,7 @@ from linebot.models import *
 
 def test():
     message = TemplateSendMessage(
-        alt_text='圖片旋轉木馬',
+        alt_text='影片欣賞',
         template=ImageCarouselTemplate(
             columns=[
                 ImageCarouselColumn(
@@ -16,24 +16,24 @@ def test():
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/QOcAvjt.jpg",
+                    image_url="https://static.wixstatic.com/media/f96bc7_cca001d9b32842fa954f853e43893802~mv2.jpg/v1/fill/w_480,h_304,al_c,q_80,usm_0.66_1.00_0.01/152404222320711.webp",
                     action=URITemplateAction(
-                        label="新鮮蔬菜",
-                        uri="https://cdn.101mediaimage.com/img/file/1410464751urhp5.jpg"
+                        label="守護家園",
+                        uri="https://www.youtube.com/watch?v=PycUw2oflaY"
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/Np7eFyj.jpg",
+                    image_url="https://static.wixstatic.com/media/f96bc7_997399d1ed7249a4a32490b60a003b0c~mv2.png/v1/fill/w_480,h_269,al_c,q_85,usm_0.66_1.00_0.01/%E6%9C%AA%E5%91%BD%E5%90%8D.webp",
                     action=URITemplateAction(
-                        label="可愛狗狗",
-                        uri="http://imgm.cnmo-img.com.cn/appimg/screenpic/big/674/673928.JPG"
+                        label="海軍陸戰隊-英雄夢",
+                        uri="https://www.youtube.com/watch?v=uXJin6jdpeE"
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/QRIa5Dz.jpg",
+                    image_url="https://static.wixstatic.com/media/f96bc7_c09d8f379c8d4fea822fa99a4cc465d0~mv2.png/v1/fill/w_480,h_259,al_c,q_85,usm_0.66_1.00_0.01/%E6%9C%AA%E5%91%BD%E5%90%8D.webp",
                     action=URITemplateAction(
-                        label="可愛貓咪",
-                        uri="https://m-miya.net/wp-content/uploads/2014/07/0-065-1.min_.jpg"
+                        label="惡名昭彰 feat.館長",
+                        uri="https://www.youtube.com/watch?v=meFWwLI7glY"
                     )
                 )
             ]
