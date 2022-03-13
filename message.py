@@ -54,8 +54,8 @@ def buttons_message():
     message = TemplateSendMessage(
         alt_text='好消息來囉～',
         template=ButtonsTemplate(
-            thumbnail_image_url="https://pic2.zhimg.com/v2-de4b8114e8408d5265503c8b41f59f85_b.jpg",
-            title="是否要進行抽獎活動？",
+            thumbnail_image_url="https://scontent.fkhh1-1.fna.fbcdn.net/v/t39.30808-6/244805825_2000754466769598_5753259798329577990_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=3O5xZ538v2YAX-oC5-d&_nc_ht=scontent.fkhh1-1.fna&oh=00_AT-44CYzKrV-kffqpN-rvhFefol5ZmFE4DU1cpHsjAjb0w&oe=6233D4D7",
+            title="迫不急待加入海軍了嗎？",
             text="輸入生日後即獲得抽獎機會",
             actions=[
                 DatetimePickerTemplateAction(
@@ -71,8 +71,8 @@ def buttons_message():
                     text="有哪些抽獎品項呢？"
                 ),
                 URITemplateAction(
-                    label="免費註冊享回饋",
-                    uri="https://tw.shop.com/nbts/create-myaccount.xhtml?returnurl=https%3A%2F%2Ftw.shop.com%2F"
+                    label="填寫報名意願書",
+                    uri="https://forms.gle/8AEvmB8hhHxByfhg7"
                 )
             ]
         )
