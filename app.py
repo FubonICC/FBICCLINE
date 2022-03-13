@@ -20,6 +20,21 @@ import tempfile, os
 import datetime
 import time
 #======python的函數庫==========
+#======讓heroku不會睡著======
+import threading 
+import requests
+def wake_up_heroku():
+    while 1==1:
+        url = ' https://navy-dw.herokuapp.com/' + 'heroku_wake_up'
+        res = requests.get(url)
+        if res.status_code==200:
+            print('喚醒heroku成功')
+        else:
+            print('喚醒失敗')
+        time.sleep(28*60)
+
+threading.Thread(target=wake_up_heroku).start()
+#======讓heroku不會睡著======
 
 app = Flask(__name__)
 static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
@@ -52,7 +67,7 @@ def handle_message(event):
     if '最新合作廠商' in msg:
         message = imagemap_message()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '最新活動訊息' in msg:
+    elif '我要報名' in msg:
         message = buttons_message()
         line_bot_api.reply_message(event.reply_token, message)
     elif '註冊會員' in msg:
@@ -105,6 +120,91 @@ def handle_message(event):
             longitude="119.5635929"
          )
         line_bot_api.reply_message(event.reply_token, message)
+    else '薪水' in msg:
+        message = TextSendMessage(text="-----------士兵---------
+
+二兵（1級）
+本俸加給：10130
+專業加給：15190
+志願加給：10000
+合計底薪：35320元
+
+一兵（1級）
+本俸加給：10910
+專業加給：16130
+志願加給：10000
+合計底薪：37040元
+
+上兵（1級）
+本俸加給：11690
+專業加給：17080
+志願加給：10000
+合計底薪：38770元
+
+-----------士官---------
+
+下士（1級）
+本俸加給：12470
+專業加給：18980
+志願加給：10000
+合計底薪：41450元
+
+中士（1級）
+本俸加給：16210
+專業加給：19050
+志願加給：10000
+合計底薪：45260元
+
+上士（1級）
+本俸加給：19780
+專業加給：19110
+志願加給：10000
+合計底薪：48890元
+
+三等士官長（1級）
+本俸加給：21200
+專業加給：20260
+志願加給：10000
+合計底薪：51460元
+
+二等士官長（1級）
+本俸加給：23350
+專業加給：22280
+志願加給：10000
+合計底薪：55630元
+
+一等士官長（1級）
+本俸加給：26920
+專業加給：23270
+志願加給：10000
+合計底薪：60190元
+
+-----------軍官---------
+
+少尉（1級）
+本俸加給：21200
+專業加給：19360
+志願加給：10000
+合計底薪：50560元
+
+中尉（1級）
+本俸加給：23350
+專業加給：20260
+志願加給：10000
+合計底薪：53610元
+
+上尉（1級）
+本俸加給：26920
+專業加給：22280
+志願加給：10000
+合計底薪：59200元
+
+少校（1級）
+本俸加給：30490
+專業加給：23270
+志願加給：10000
+合計底薪：63760元" )
+        line_bot_api.reply_message(event.reply_token, message)      
     else:
         message = TextSendMessage(text="你說的是不是:" + event.message.text)
         line_bot_api.reply_message(event.reply_token, message)
@@ -128,3 +228,5 @@ import os
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
+
+
