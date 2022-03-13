@@ -9,10 +9,10 @@ def test():
         template=ImageCarouselTemplate(
             columns=[
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/uKYgfVs.jpg",
+                    image_url="https://drive.google.com/file/d/1NzmAMTnsLVI7w2r0R-gK1I6Xq2ebIPvv/view?usp=sharing",
                     action=URITemplateAction(
-                        label="新鮮水果",
-                        uri="http://img.juimg.com/tuku/yulantu/110709/222-110F91G31375.jpg"
+                        label="2022形象影片",
+                        uri="https://www.youtube.com/watch?v=SmeYkoJwL3A"
                     )
                 ),
                 ImageCarouselColumn(
