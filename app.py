@@ -120,6 +120,9 @@ def handle_message(event):
             longitude="119.5635929"
          )
         line_bot_api.reply_message(event.reply_token, message)
+    elif '薪水' in msg:     
+        message = TextSendMessage(text="二兵（1級）\n本俸加給：10130\n專業加給：15190\n志願加給：10000\n合計底薪：35320元" )
+        line_bot_api.reply_message(event.reply_token, message)   
     else:
         message = TextSendMessage(text="你說的是不是:" + event.message.text)
         line_bot_api.reply_message(event.reply_token, message)
