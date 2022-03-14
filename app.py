@@ -127,45 +127,6 @@ def handle_message(event):
         message = TextSendMessage(text="你說的是不是:" + event.message.text)
         line_bot_api.reply_message(event.reply_token, message)
 
-function handleText(message, replyToken, source) {
-  switch (message.text) {
-  let replyMsg
-    // send text
-    case 'hello':
-      return replyText(replyToken, 'wolrd')
-    case 'good':
-      return replyText(replyToken, 'job')
-    case 'texts limit':
-      replyMsg = [{
-        type: 'text',
-        text: 'reply message 1'
-      },
-      {
-        type: 'text',
-        text: 'reply message 2'
-      },
-      {
-        type: 'text',
-        text: 'reply message 3'
-      },
-      {
-        type: 'text',
-        text: 'reply message 4'
-      },
-      {
-        type: 'text',
-        text: 'reply message 5'
-      }]
-      return client.replyMessage(replyToken, replyMsg)
-
-    default:
-      return replyText(replyToken, 'nothing to say')
-  }
-}
-
-
-
-
 
 @handler.add(PostbackEvent)
 def handle_message(event):
