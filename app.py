@@ -88,8 +88,6 @@ def handle_message(event):
     elif '功能列表' in msg:
         message = function_list()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '海軍一二四艦隊' in msg: #艦隊回答
-        return replyText(reply_token,'海軍一二四艦隊位於左營軍港，主力軍艦為康定級驅逐艦' )
     elif '左營軍港' in msg:
         message = LocationSendMessage(
             title="左營軍港",
@@ -128,6 +126,46 @@ def handle_message(event):
     else:
         message = TextSendMessage(text="你說的是不是:" + event.message.text)
         line_bot_api.reply_message(event.reply_token, message)
+
+function handleText(message, replyToken, source) {
+  switch (message.text) {
+  let replyMsg
+    // send text
+    case 'hello':
+      return replyText(replyToken, 'wolrd')
+    case 'good':
+      return replyText(replyToken, 'job')
+    case 'texts limit':
+      replyMsg = [{
+        type: 'text',
+        text: 'reply message 1'
+      },
+      {
+        type: 'text',
+        text: 'reply message 2'
+      },
+      {
+        type: 'text',
+        text: 'reply message 3'
+      },
+      {
+        type: 'text',
+        text: 'reply message 4'
+      },
+      {
+        type: 'text',
+        text: 'reply message 5'
+      }]
+      return client.replyMessage(replyToken, replyMsg)
+
+    default:
+      return replyText(replyToken, 'nothing to say')
+  }
+}
+
+
+
+
 
 @handler.add(PostbackEvent)
 def handle_message(event):
