@@ -89,7 +89,8 @@ def handle_message(event):
         message = function_list()
         line_bot_api.reply_message(event.reply_token, message)
     elif '海軍一二四艦隊' in msg: #艦隊回答
-        line_bot_api.replytext(replytoken, '海軍一二四艦隊位於左營軍港，主力軍艦為康定級驅逐艦')
+        message = return  ()
+        return replyText(reply_token,'海軍一二四艦隊位於左營軍港，主力軍艦為康定級驅逐艦' )
     elif '左營軍港' in msg:
         message = LocationSendMessage(
             title="左營軍港",
