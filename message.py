@@ -119,7 +119,7 @@ def Carousel_Template1():
                         ),
                         MessageAction(
                             label='詳細說明',
-                            text='%海軍一二四艦隊'
+                            text='%124'
                         ),
                         URITemplateAction(
                             label='了解124艦隊',
