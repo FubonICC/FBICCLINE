@@ -113,17 +113,36 @@ def Carousel_Template1():
                     title='海軍一二四艦隊',
                     text='主力軍艦：康定級軍艦',
                     actions=[
-                        PostbackTemplateAction(
+                        MessageAction(
                             label='駐地：左營軍港',
-                            data='將這個訊息偷偷回傳給機器人'
+                            text='左營軍港'
                         ),
                         MessageAction(
                             label='詳細說明',
                             text='%124'
                         ),
                         URITemplateAction(
-                            label='了解124艦隊',
+                            label='隊徽&組織沿革',
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30045'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://zh.wikipedia.org/wiki/%E5%A1%94%E6%B1%9F%E8%99%9F%E5%B7%A1%E9%82%8F%E8%89%A6#/media/File:ROCN_Ta_Chiang.png',
+                    title='海軍一三一艦隊',
+                    text='主力軍艦：錦江級軍艦、沱江級軍艦、塔江級軍艦、光華六號飛彈快艇',
+                    actions=[
+                        MessageAction(
+                            label='駐地：基隆軍港',
+                            text='基隆軍港'
+                        ),
+                        MessageAction(
+                            label='詳細說明',
+                            text='%131'
+                        ),
+                        URITemplateAction(
+                            label='隊徽&組織沿革',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30050'
                         )
                     ]
                 ),
