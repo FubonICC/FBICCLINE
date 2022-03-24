@@ -128,7 +128,7 @@ def Carousel_Template1():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://zh.wikipedia.org/wiki/%E5%A1%94%E6%B1%9F%E8%99%9F%E5%B7%A1%E9%82%8F%E8%89%A6#/media/File:ROCN_Ta_Chiang.png',
+                    thumbnail_image_url='https://upload.wikimedia.org/wikipedia/commons/8/8e/ROCN_Ta_Chiang.png',
                     title='海軍一三一艦隊',
                     text='主力軍艦：錦江級軍艦、沱江級軍艦、塔江級軍艦、光華六號飛彈快艇',
                     actions=[
