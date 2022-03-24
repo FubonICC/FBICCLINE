@@ -112,7 +112,7 @@ def handle_message(event):
             longitude="121.7471660"
          )
         line_bot_api.reply_message(event.reply_token, message)
-    elif '馬公軍港' in msg:
+    elif '馬公軍港''馬公' in msg:
         message = LocationSendMessage(
             title="馬公基地",
             address="馬公港",
