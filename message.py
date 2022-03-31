@@ -6,7 +6,7 @@ from linebot.models import *
 #ImagemapSendMessage(組圖訊息)
 def imagemap_message():
     message = ImagemapSendMessage(
-        base_url="https://drive.google.com/drive/folders/1v_QdDfqmYmo8dwaW80ShvlROKlyEGeCw?usp=sharing",
+        base_url="https://drive.google.com/drive/folders/1LQWsQw9a5BnIW5l0Nx2snCYGbCk4GwRX?usp=sharing",
         alt_text='人才招募中心服務選單',
         base_size=BaseSize(height=664, width=1024),
         actions=[
