@@ -143,7 +143,7 @@ def buttons_message1():
                 ),
                 MessageTemplateAction(
                     label="招募中心服務選單",
-                    text="%中心服務"
+                    text="中心服務"
                 ),
                 URITemplateAction(
                     label="填寫報名意願書",

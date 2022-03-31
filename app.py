@@ -64,7 +64,7 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     msg = event.message.text
-    if '%中心服務' in msg:
+    if '中心服務' in msg:
         message = imagemap_message()
         line_bot_api.reply_message(event.reply_token, message)
     elif '我要報名' in msg:
