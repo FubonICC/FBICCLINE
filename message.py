@@ -8,7 +8,7 @@ def imagemap_message():
     message = ImagemapSendMessage(
         base_url="https://static.wixstatic.com/media/f96bc7_e01d2bcf9bc349f0bdad58c3ed4347e0~mv2.png/v1/fill/w_600,h_383,al_c,q_85,usm_0.66_1.00_0.01/1040.webp",
         alt_text='人才招募中心服務選單',
-        base_size=BaseSize(width=664, height=1024),
+        base_size=BaseSize(width=1024, height=664),
         actions=[
             URIImagemapAction(
                 #家樂福
