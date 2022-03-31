@@ -141,6 +141,10 @@ def buttons_message1():
                     label="認識海軍陸戰隊",
                     text="海軍陸戰隊"
                 ),
+                MessageTemplateAction(
+                    label="招募中心服務選單",
+                    text="%中心服務"
+                ),
                 URITemplateAction(
                     label="填寫報名意願書",
                     uri="https://forms.gle/8AEvmB8hhHxByfhg7"
