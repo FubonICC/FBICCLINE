@@ -6,7 +6,7 @@ from linebot.models import *
 #ImagemapSendMessage(組圖訊息)
 def imagemap_message():
     message = ImagemapSendMessage(
-        base_url="https://static.wixstatic.com/media/f96bc7_e631f625a59c4bccabbadad6d6cd0ecf~mv2.jpg/v1/fill/w_357,h_228,al_c,q_80,usm_0.66_1.00_0.01/recuitmenu01.webp",
+        base_url="https://static.wixstatic.com/media/f96bc7_0eb890e5dd494e889bab0191d7aff419~mv2.jpg/v1/fill/w_600,h_383,al_c,q_80,usm_0.66_1.00_0.01/recruitmenu02.webp",
         alt_text='最新的合作廠商有誰呢？',
         base_size=BaseSize(height=228, width=356),
         actions=[
