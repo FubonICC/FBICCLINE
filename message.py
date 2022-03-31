@@ -6,36 +6,36 @@ from linebot.models import *
 #ImagemapSendMessage(組圖訊息)
 def imagemap_message():
     message = ImagemapSendMessage(
-        base_url="https://i.imgur.com/BfTFVDN.jpg",
-        alt_text='最新的合作廠商有誰呢？',
-        base_size=BaseSize(height=2000, width=2000),
+        base_url="https://static.wixstatic.com/media/f96bc7_2d2f5de3d5814569ae687c89975f62bf~mv2.jpg/v1/fill/w_357,h_228,al_c,q_80/recuitmenu.webp",
+        alt_text='人才招募中心功能選單',
+        base_size=BaseSize(height=228, width=358),
         actions=[
             URIImagemapAction(
                 #家樂福
                 link_uri="https://tw.shop.com/search/%E5%AE%B6%E6%A8%82%E7%A6%8F",
                 area=ImagemapArea(
-                    x=0, y=0, width=1000, height=1000
+                    x=0, y=0, width=179, height=114
                 )
             ),
             URIImagemapAction(
                 #生活市集
                 link_uri="https://tw.shop.com/search/%E7%94%9F%E6%B4%BB%E5%B8%82%E9%9B%86",
                 area=ImagemapArea(
-                    x=1000, y=0, width=1000, height=1000
+                    x=179, y=0, width=179, height=114
                 )
             ),
             URIImagemapAction(
                 #阿瘦皮鞋
                 link_uri="https://tw.shop.com/search/%E9%98%BF%E7%98%A6%E7%9A%AE%E9%9E%8B",
                 area=ImagemapArea(
-                    x=0, y=1000, width=1000, height=1000
+                    x=0, y=114, width=179, height=114
                 )
             ),
             URIImagemapAction(
                 #塔吉特千層蛋糕
                 link_uri="https://tw.shop.com/search/%E5%A1%94%E5%90%89%E7%89%B9",
                 area=ImagemapArea(
-                    x=1000, y=1000, width=1000, height=500
+                    x=179, y=114, width=179, height=114
                 )
             ),
             URIImagemapAction(
@@ -87,7 +87,7 @@ def buttons_message1():
         alt_text='歡迎來到海軍招募讚',
         template=ButtonsTemplate(
             thumbnail_image_url="https://navy.mnd.gov.tw/Photo/Ban/202105051632_534790.jpg",
-            title="海軍招募讚服務選單？",
+            title="🇹🇼海軍招募讚服務選單🇹🇼",
             text="請選擇你要的服務",
             actions=[
                 MessageTemplateAction(
