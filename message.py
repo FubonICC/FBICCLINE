@@ -43,7 +43,7 @@ def imagemap_message():
     return message
 
 #ImagemapSendMessage(組圖訊息)
-def imagemap_message1():
+def imagemap_message01():
     message = ImagemapSendMessage(
         base_url="https://i.imgur.com/BfTFVDN.jpg",
         alt_text='最新的合作廠商有誰呢？',
