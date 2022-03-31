@@ -6,36 +6,36 @@ from linebot.models import *
 #ImagemapSendMessage(組圖訊息)
 def imagemap_message():
     message = ImagemapSendMessage(
-        base_url="https://static.wixstatic.com/media/f96bc7_2d2f5de3d5814569ae687c89975f62bf~mv2.jpg/v1/fill/w_357,h_228,al_c,q_80/recuitmenu.webp",
+        base_url="https://static.wixstatic.com/media/f96bc7_e01d2bcf9bc349f0bdad58c3ed4347e0~mv2.png/v1/fill/w_600,h_383,al_c,q_85,usm_0.66_1.00_0.01/1040.webp",
         alt_text='人才招募中心服務選單',
-        base_size=BaseSize(height=664, width=1024),
+        base_size=BaseSize(width=664, height=1024),
         actions=[
             URIImagemapAction(
                 #家樂福
                 link_uri="https://tw.shop.com/search/%E5%AE%B6%E6%A8%82%E7%A6%8F",
                 area=ImagemapArea(
-                    x=0, y=0, width=512, height=332
+                    x=0, y=0, width=521, height=336
                 )
             ),
             URIImagemapAction(
                 #生活市集
                 link_uri="https://tw.shop.com/search/%E7%94%9F%E6%B4%BB%E5%B8%82%E9%9B%86",
                 area=ImagemapArea(
-                    x=512, y=0, width=512, height=332
+                    x=522, y=0, width=518, height=333
                 )
             ),
             URIImagemapAction(
                 #阿瘦皮鞋
                 link_uri="https://tw.shop.com/search/%E9%98%BF%E7%98%A6%E7%9A%AE%E9%9E%8B",
                 area=ImagemapArea(
-                    x=0, y=332, width=512, height=332
+                    x=0, y=337, width=524, height=327
                 )
             ),
             URIImagemapAction(
                 #塔吉特千層蛋糕
                 link_uri="https://tw.shop.com/search/%E5%A1%94%E5%90%89%E7%89%B9",
                 area=ImagemapArea(
-                    x=512, y=332, width=512, height=332
+                    x=525, y=331, width=515, height=333
                 )
             ),
         ]
