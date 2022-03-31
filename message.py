@@ -11,29 +11,29 @@ def imagemap_message():
         base_size=BaseSize(width=1040, height=664),
         actions=[
             URIImagemapAction(
-                #家樂福
-                link_uri="https://tw.shop.com/search/%E5%AE%B6%E6%A8%82%E7%A6%8F",
+                #預約體檢
+                link_uri="https://rdrc.mnd.gov.tw/rdrcnew/tpry/healthreserve.asp?item=92",
                 area=ImagemapArea(
                     x=0, y=0, width=520, height=332
                 )
             ),
             URIImagemapAction(
-                #生活市集
-                link_uri="https://tw.shop.com/search/%E7%94%9F%E6%B4%BB%E5%B8%82%E9%9B%86",
+                #線上報名
+                link_uri="https://rdrc.mnd.gov.tw/news/OnlineSystem?Module=1043",
                 area=ImagemapArea(
                     x=520, y=0, width=520, height=332
                 )
             ),
             URIImagemapAction(
-                #阿瘦皮鞋
-                link_uri="https://tw.shop.com/search/%E9%98%BF%E7%98%A6%E7%9A%AE%E9%9E%8B",
+                #線上測驗
+                link_uri="https://rdrc.mnd.gov.tw/RDRCExamWeb/index.aspx",
                 area=ImagemapArea(
                     x=0, y=332, width=520, height=332
                 )
             ),
             URIImagemapAction(
-                #塔吉特千層蛋糕
-                link_uri="https://tw.shop.com/search/%E5%A1%94%E5%90%89%E7%89%B9",
+                #資格媒合
+                link_uri="https://rdrc.mnd.gov.tw/Suit",
                 area=ImagemapArea(
                     x=520, y=332, width=520, height=332
                 )
