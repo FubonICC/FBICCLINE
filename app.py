@@ -145,7 +145,7 @@ def handle_message(event):
         message = TextSendMessage(text="⚓ 海軍二五六戰隊 ⚓\n駐地：左營軍港\n主力軍艦：\n🇹🇼茄比級潛艦🇹🇼\n    中華民國海軍兩艘潛艦海獅號及海豹號之非正式統稱，亦有另名海獅級潛艦。雖然此二艘潛艦實際上屬於不同的設計，但均接受過茄比（水下推進能力改進計劃，縮寫GUPPY）2號現代化工程，所以被稱為「茄比級」，並持續於中華民國海軍服役中。茄比級潛艦為目前全世界現役柴電潛艦中最老的，兩艘潛艦皆已服役超過70年，創下世界唯一參與過二次世界大戰仍在役的紀錄。\n-⚓同級艦(舷號)⚓-\n海獅號(SS-791)\n海豹號(SS-792)\n \n🇹🇼劍龍級潛艦🇹🇼\n    中華民國海軍向荷蘭購買的潛艦。由荷蘭劍魚級潛艦（或稱旗魚級）降級裝備改裝而成，再加上海象級潛艦的技術，但仍維持劍魚級使用的淚滴型艦身、十字型尾鰭。\n-⚓同級艦(舷號)⚓-\n海龍號(SS-793)\n海虎號(SS-794)\n \n \n💰薪資待遇💰\n戰鬥加給：5000元\n海勤加給(士兵)：20000元\n海勤加給(士官)：37000元\n海勤加給(士官長)：41000元\n💎各階待遇💎\n士兵起薪：60320元\n士官起薪：83450元\n士官長起薪：97460元\n軍官起薪：96560元" )
         line_bot_api.reply_message(event.reply_token, message)
     else:
-        message = TextSendMessage(text="你說的是不是:" + event.message.text)
+        message = buttons_message1()
         line_bot_api.reply_message(event.reply_token, message)
 
 
