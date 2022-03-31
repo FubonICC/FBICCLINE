@@ -6,36 +6,36 @@ from linebot.models import *
 #ImagemapSendMessage(組圖訊息)
 def imagemap_message():
     message = ImagemapSendMessage(
-        base_url="https://static.wixstatic.com/media/f96bc7_e492072684b7471cb84de5ca67f4777f~mv2.png/v1/fill/w_512,h_327,al_c,q_85/512.webp",
+        base_url="https://static.wixstatic.com/media/f96bc7_cae8a0f9f7834d1b936f4a46064dd5b5~mv2.jpg/v1/fill/w_600,h_600,al_c,q_80,usm_0.66_1.00_0.01/BfTFVDN.webp",
         alt_text='人才招募中心服務選單',
-        base_size=BaseSize(width=512, height=332),
+        base_size=BaseSize(width=2000, height=2000),
         actions=[
             URIImagemapAction(
                 #家樂福
                 link_uri="https://tw.shop.com/search/%E5%AE%B6%E6%A8%82%E7%A6%8F",
                 area=ImagemapArea(
-                    x=0, y=0, width=256, height=166
+                    x=0, y=0, width=1000, height=1000
                 )
             ),
             URIImagemapAction(
                 #生活市集
                 link_uri="https://tw.shop.com/search/%E7%94%9F%E6%B4%BB%E5%B8%82%E9%9B%86",
                 area=ImagemapArea(
-                    x=256, y=0, width=256, height=166
+                    x=1000, y=0, width=1000, height=1000
                 )
             ),
             URIImagemapAction(
                 #阿瘦皮鞋
                 link_uri="https://tw.shop.com/search/%E9%98%BF%E7%98%A6%E7%9A%AE%E9%9E%8B",
                 area=ImagemapArea(
-                    x=0, y=166, width=256, height=166
+                    x=0, y=1000, width=1000, height=1000
                 )
             ),
             URIImagemapAction(
                 #塔吉特千層蛋糕
                 link_uri="https://tw.shop.com/search/%E5%A1%94%E5%90%89%E7%89%B9",
                 area=ImagemapArea(
-                    x=256, y=166, width=256, height=166
+                    x=1000, y=1000, width=1000, height=1000
                 )
             ),
         ]
@@ -45,7 +45,7 @@ def imagemap_message():
 #ImagemapSendMessage(組圖訊息)
 def imagemap_message1():
     message = ImagemapSendMessage(
-        base_url="https://static.wixstatic.com/media/f96bc7_2d2f5de3d5814569ae687c89975f62bf~mv2.jpg/v1/fill/w_357,h_228,al_c,q_80/recuitmenu.webp",
+        base_url="https://i.imgur.com/BfTFVDN.jpg",
         alt_text='最新的合作廠商有誰呢？',
         base_size=BaseSize(height=2000, width=2000),
         actions=[
