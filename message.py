@@ -138,10 +138,6 @@ def buttons_message1():
                     text="陸岸"
                 ),
                 MessageTemplateAction(
-                    label="認識海軍陸戰隊",
-                    text="海軍陸戰隊"
-                ),
-                MessageTemplateAction(
                     label="招募中心服務選單",
                     text="中心服務"
                 ),
