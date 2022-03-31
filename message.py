@@ -6,36 +6,36 @@ from linebot.models import *
 #ImagemapSendMessage(組圖訊息)
 def imagemap_message():
     message = ImagemapSendMessage(
-        base_url="https://i.imgur.com/T2oMgnE.jpg",
+        base_url="https://i.imgur.com/J5DELEi.jpg",
         alt_text='人才招募中心服務選單',
-        base_size=BaseSize(width=2000, height=2000),
+        base_size=BaseSize(width=1040, height=664),
         actions=[
             URIImagemapAction(
                 #家樂福
                 link_uri="https://tw.shop.com/search/%E5%AE%B6%E6%A8%82%E7%A6%8F",
                 area=ImagemapArea(
-                    x=0, y=0, width=1000, height=1000
+                    x=0, y=0, width=520, height=332
                 )
             ),
             URIImagemapAction(
                 #生活市集
                 link_uri="https://tw.shop.com/search/%E7%94%9F%E6%B4%BB%E5%B8%82%E9%9B%86",
                 area=ImagemapArea(
-                    x=1000, y=0, width=1000, height=1000
+                    x=520, y=0, width=520, height=332
                 )
             ),
             URIImagemapAction(
                 #阿瘦皮鞋
                 link_uri="https://tw.shop.com/search/%E9%98%BF%E7%98%A6%E7%9A%AE%E9%9E%8B",
                 area=ImagemapArea(
-                    x=0, y=1000, width=1000, height=1000
+                    x=0, y=332, width=520, height=332
                 )
             ),
             URIImagemapAction(
                 #塔吉特千層蛋糕
                 link_uri="https://tw.shop.com/search/%E5%A1%94%E5%90%89%E7%89%B9",
                 area=ImagemapArea(
-                    x=1000, y=1000, width=1000, height=1000
+                    x=520, y=332, width=520, height=332
                 )
             ),
         ]
