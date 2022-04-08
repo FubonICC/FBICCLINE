@@ -504,6 +504,7 @@ def Carousel_Template4():
     message = TemplateSendMessage(
         alt_text='海軍一般陸岸單位',
         template=CarouselTemplate(
+        imageSize:ImageSizeType.Cover,
             columns=[
                 CarouselColumn(
                     thumbnail_image_url='https://imgur.com/gallery/zwMXGTk',
