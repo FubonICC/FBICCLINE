@@ -506,7 +506,7 @@ def Carousel_Template4():
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://imgur.com/a/vd1tgU0',
+                    thumbnail_image_url='https://www.facebook.com/photo/?fbid=2126818884163155&set=pcb.2126818967496480',
                     title=' 海軍教育訓練暨準則發展指揮部',
                     text='海軍新兵訓練中心、海軍技術學校/n海軍陸戰隊新兵訓練中心、海軍陸戰隊學校',
                     actions=[
