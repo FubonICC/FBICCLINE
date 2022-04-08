@@ -131,7 +131,7 @@ def buttons_message1():
             actions=[
                 MessageTemplateAction(
                     label="我要認識海軍艦隊",
-                    text="海軍艦隊"
+                    text="認識海軍"
                 ),
                 MessageTemplateAction(
                     label="認識海軍陸岸單位",
@@ -144,6 +144,35 @@ def buttons_message1():
                 URITemplateAction(
                     label="填寫報名意願書",
                     uri="https://forms.gle/8AEvmB8hhHxByfhg7"
+                )
+            ]
+        )
+    )
+    return message
+
+def buttons_message2():
+    message = TemplateSendMessage(
+        alt_text='歡迎來到海軍招募讚',
+        template=ButtonsTemplate(
+            thumbnail_image_url="https://navy.mnd.gov.tw/Photo/Ban/202105051632_534790.jpg",
+            title="🇹🇼中華民國海軍單位介紹🇹🇼",
+            text="請選擇你想了解的單位類型",
+            actions=[
+                MessageTemplateAction(
+                    label="海軍艦隊",
+                    text="海軍艦隊"
+                ),
+                MessageTemplateAction(
+                    label="海軍陸岸作戰單位",
+                    text="陸岸作戰"
+                ),
+                MessageTemplateAction(
+                    label="海軍陸岸一般單位",
+                    text="陸岸一般"
+                ),
+                MessageTemplateAction(
+                    label="海軍陸戰隊單位",
+                    text="海軍陸戰隊"
                 )
             ]
         )
@@ -304,7 +333,7 @@ def Carousel_Template1():
                         ),
                         MessageAction(
                             label='詳細說明',
-                            text='%192'
+                            text='%256'
                         ),
                         URITemplateAction(
                             label='隊徽&組織沿革',
@@ -386,7 +415,7 @@ def Carousel_Template2():
 
 def Carousel_Template3():
     message = TemplateSendMessage(
-        alt_text='海軍艦隊陸岸單位',
+        alt_text='海軍陸岸作戰單位',
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
@@ -471,7 +500,91 @@ def Carousel_Template3():
     return message
 
 
-
+def Carousel_Template4():
+    message = TemplateSendMessage(
+        alt_text='海軍一般陸岸單位',
+        template=CarouselTemplate(
+            columns=[
+                CarouselColumn(
+                    thumbnail_image_url='https://imgur.com/a/zwMXGTk',
+                    title=' 海軍教育訓練暨準則發展指揮部',
+                    text='海軍新兵訓練中心、海軍技術學校/n海軍陸戰隊新兵訓練中心、海軍陸戰隊學校',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：左營、龍泉',
+                            data='A'
+                        ),
+                         MessageAction(
+                            label='詳細說明',
+                            text='%教準部'
+                        ),                       
+                        URITemplateAction(
+                            label='前往網頁',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_List.aspx?ID=30155'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://navy.mnd.gov.tw/Photo/OtherHTML/201610261134_976298.jpg',
+                    title='海軍反潛航空大隊',
+                    text='S-70C反潛直升機、500MD反潛直昇機',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：左營',
+                            data='這是ID=2'
+                        ),
+                        MessageAction(
+                            label='詳細說明',
+                            text='%反潛'
+                        ),
+                        URITemplateAction(
+                            label='前往網頁',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30057'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.6435-9/126933144_1746128488898865_1472026323777596786_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=ufSob08X-pkAX_x7kDe&_nc_ht=scontent.fkhh1-1.fna&oh=00_AT8K51NCTW9jyHCVlP1DJnAUQufMhV9356ZupivPXlxoqg&oe=624FDFD3',
+                    title='海軍海洋監偵指揮部',
+                    text='海軍雷達站',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：全台各地',
+                            data='這是ID=2'
+                        ),
+                        MessageAction(
+                            label='詳細說明',
+                            text='%海偵'
+                        ),
+                        URITemplateAction(
+                            label='前往網頁',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30054'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2021/12/26/realtime/14886452.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=800&exp=3600&w=930&nt=1',
+                    title='海軍海鋒大隊',
+                    text='海軍飛彈部隊',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：全台各地',
+                            data='這是ID=2'
+                        ),
+                        MessageAction(
+                            label='詳細說明',
+                            text='%海鋒'
+                        ),
+                        URITemplateAction(
+                            label='前往網頁',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30056'
+                        )
+                    ]
+                ),
+            ]
+        )
+    )
+    return message
 
 
 #TemplateSendMessage - ImageCarouselTemplate(圖片旋轉木馬)
