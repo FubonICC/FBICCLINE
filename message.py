@@ -504,10 +504,9 @@ def Carousel_Template4():
     message = TemplateSendMessage(
         alt_text='海軍一般陸岸單位',
         template=CarouselTemplate(
-        imageSize:ImageSizeType.Cover,
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://imgur.com/gallery/zwMXGTk',
+                    thumbnail_image_url='https://imgur.com/a/vd1tgU0',
                     title=' 海軍教育訓練暨準則發展指揮部',
                     text='海軍新兵訓練中心、海軍技術學校/n海軍陸戰隊新兵訓練中心、海軍陸戰隊學校',
                     actions=[
