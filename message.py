@@ -508,7 +508,7 @@ def Carousel_Template4():
                 CarouselColumn(
                     thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t39.30808-6/277171938_2126818857496491_1956194813101538323_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=1ZLvbquGrQIAX9QOtuX&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT_UiTFHeF6yICYEpnwjzIwSUrouuZx8NQZjkBgigsTjRg&oe=6255BD08',
                     title=' 海軍教育訓練暨準則發展指揮部',
-                    text='海軍新兵訓練中心、海軍技術學校/n海軍陸戰隊新兵訓練中心、海軍陸戰隊學校',
+                    text='海軍新兵訓練中心、海軍技術學校\n海軍陸戰隊新兵訓練中心、海軍陸戰隊學校',
                     actions=[
                         PostbackTemplateAction(
                             label='駐地：左營、龍泉',
@@ -526,20 +526,20 @@ def Carousel_Template4():
                 ),
                 CarouselColumn(
                     thumbnail_image_url='https://navy.mnd.gov.tw/Photo/OtherHTML/201610261134_976298.jpg',
-                    title='海軍反潛航空大隊',
-                    text='S-70C反潛直升機、500MD反潛直昇機',
+                    title='海軍保修指揮部',
+                    text='海軍左營後勤支援指揮部、海軍蘇澳後勤支援指揮部\n海軍基隆後勤指揮部、海軍馬公後勤指揮部\n海軍戰鬥系統工廠、海軍補給總庫',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：左營',
+                            label='駐地：左營、蘇澳、基隆、馬公',
                             data='這是ID=2'
                         ),
                         MessageAction(
                             label='詳細說明',
-                            text='%反潛'
+                            text='%保指部'
                         ),
                         URITemplateAction(
                             label='前往網頁',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30057'
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30090&AID=30142'
                         )
                     ]
                 ),
