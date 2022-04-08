@@ -527,7 +527,7 @@ def Carousel_Template4():
                 CarouselColumn(
                     thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t39.30808-6/213317356_1922316761280036_6344745334106153003_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=dkGAHw3fudEAX_V4o3s&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT93aGczKmPFmPPb2Dwf4sv1cfplxNBlxExR2uXfOFEszw&oe=62550FB8',
                     title='海軍保修指揮部',
-                    text='海軍左營後勤支援指揮部、海軍蘇澳後勤支援指揮部\n海軍基隆後勤指揮部、海軍馬公後勤指揮部\n海軍戰鬥系統工廠、海軍補給總庫',
+                    text='左營後勤支援指揮部、蘇澳後勤支援指揮部\n基隆後勤指揮部、馬公後勤指揮部\n戰鬥系統工廠、補給總庫',
                     actions=[
                         PostbackTemplateAction(
                             label='駐地：左營、蘇澳、基隆、馬公',
