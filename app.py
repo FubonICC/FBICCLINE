@@ -7,6 +7,7 @@ from linebot.exceptions import (
     InvalidSignatureError
 )
 from linebot.models import *
+from linebot.models import TextSendMessage, ImageSendMessage
 
 #======這裡是呼叫的檔案內容=====
 from message import *
