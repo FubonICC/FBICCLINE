@@ -527,7 +527,7 @@ def Carousel_Template4():
                 CarouselColumn(
                     thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t39.30808-6/213317356_1922316761280036_6344745334106153003_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=dkGAHw3fudEAX_V4o3s&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT93aGczKmPFmPPb2Dwf4sv1cfplxNBlxExR2uXfOFEszw&oe=62550FB8',
                     title='海軍保修指揮部',
-                    text='左營後勤支援指揮部、蘇澳後勤支援指揮部\n基隆後勤指揮部、馬公後勤指揮部\n戰鬥系統工廠、補給總庫',
+                    text='左營後勤支援指揮部、蘇澳後勤支援指揮部\n基隆後勤支援指揮部、馬公後勤支援指揮部\n戰鬥系統工廠、補給總庫',
                     actions=[
                         PostbackTemplateAction(
                             label='駐地：左營、蘇澳、基隆、馬公',
@@ -544,40 +544,97 @@ def Carousel_Template4():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.6435-9/126933144_1746128488898865_1472026323777596786_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=ufSob08X-pkAX_x7kDe&_nc_ht=scontent.fkhh1-1.fna&oh=00_AT8K51NCTW9jyHCVlP1DJnAUQufMhV9356ZupivPXlxoqg&oe=624FDFD3',
-                    title='海軍海洋監偵指揮部',
-                    text='海軍雷達站',
+                    thumbnail_image_url='https://navy.mnd.gov.tw/Photo/PartnerHTML/201902210941_1489.jpg',
+                    title='海軍通信系統指揮部',
+                    text='海軍版中華電信',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：全台各地',
+                            label='駐地：台北、蘇澳、馬公、左營',
                             data='這是ID=2'
                         ),
                         MessageAction(
                             label='詳細說明',
-                            text='%海偵'
+                            text='%通指部'
                         ),
                         URITemplateAction(
                             label='前往網頁',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30054'
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30075&AID=30126'
                         )
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2021/12/26/realtime/14886452.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=800&exp=3600&w=930&nt=1',
-                    title='海軍海鋒大隊',
-                    text='海軍飛彈部隊',
+                    thumbnail_image_url='https://images.chinatimes.com/newsphoto/2018-10-10/1024/20181010001186.jpg',
+                    title='司令部勤務大隊',
+                    text='海軍儀隊、海軍樂隊\n汽車隊、勤務隊',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：全台各地',
+                            label='駐地：台北大直',
                             data='這是ID=2'
                         ),
                         MessageAction(
                             label='詳細說明',
-                            text='%海鋒'
+                            text='%勤務大隊'
                         ),
                         URITemplateAction(
                             label='前往網頁',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30056'
+                            uri='https://navy.mnd.gov.tw/AboutUs/About_Info.aspx?ID=30057&CID=30072'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://cnmoo.mnd.gov.tw/UploadFile/MainImg/MainImg_16162132.jpg',
+                    title='大氣海洋局',
+                    text='海軍版中央氣象台',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：高雄左營',
+                            data='這是ID=2'
+                        ),
+                        MessageAction(
+                            label='詳細說明',
+                            text='%大氣'
+                        ),
+                        URITemplateAction(
+                            label='前往網頁',
+                            uri='https://cnmoo.mnd.gov.tw/'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t39.30808-6/276163906_2125863730925337_6027043035640067989_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=3hRQRo4g8rIAX9Ih0vZ&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT9uQFxzq3mn9f8qQ-YjoEwz-F-eDBUOwWO0-xu07Xjjqg&oe=6257DB1C',
+                    title='海軍造船發展中心',
+                    text='國艦國造戰力強',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：高雄左營',
+                            data='這是ID=2'
+                        ),
+                        MessageAction(
+                            label='詳細說明',
+                            text='%海發'
+                        ),
+                        URITemplateAction(
+                            label='前往網頁',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30050&AID=30046'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://www.cna.edu.tw/upload/CMS/20141212163254281.jpg',
+                    title='海軍官校',
+                    text='海軍菁英幹部新手村',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：高雄左營',
+                            data='這是ID=2'
+                        ),
+                        MessageAction(
+                            label='詳細說明',
+                            text='%海官'
+                        ),
+                        URITemplateAction(
+                            label='前往網頁',
+                            uri='https://www.cna.edu.tw/tw/index.php'
                         )
                     ]
                 ),
