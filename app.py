@@ -213,7 +213,7 @@ def handle_message(event):
         message = buttons_message2()
         line_bot_api.reply_message(event.reply_token, message)
     elif '小編'in msg:
-        message = ImageSendMessage(original_content_url='https://i.imgur.com/evPGRYz.jpg')
+        message = ImageSendMessage(original_content_url="https://i.imgur.com/evPGRYz.jpg", preview_image_url="https://i.imgur.com/evPGRYz.jpg")
         line_bot_api.reply_message(event.reply_token, message)
     else:
         message = buttons_message1()
