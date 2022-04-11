@@ -471,7 +471,7 @@ def Carousel_Template2():
                     text='鐵衛：負責海軍重要軍事設施、港口及要塞守衛任務，誓死守衛。',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：基隆、台北、蘇澳、高雄、馬公',
+                            label='基隆、台北、蘇澳、高雄、馬公',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
                          MessageAction(
