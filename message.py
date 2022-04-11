@@ -352,7 +352,7 @@ def Carousel_Template2():
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://navy.mnd.gov.tw/Photo/PartnerHTML/201612211656_260768.png',
+                    thumbnail_image_url='https://scontent.ftpe3-1.fna.fbcdn.net/v/t39.30808-6/241519169_1970387399806305_3122669426780150672_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=13R-vVhSg54AX83tdtF&_nc_ht=scontent.ftpe3-1.fna&oh=00_AT9lStYDpwOT9OGbCAejY5ynWBvEprl0W5uOquOjlN4hBg&oe=6257EF14',
                     title='陸戰九九旅',
                     text='鐵軍：鋼鐵勁旅，防衛固守，有如銅牆鐵壁之堅強勁旅',
                     actions=[
@@ -360,10 +360,10 @@ def Carousel_Template2():
                             label='駐地：林園',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
-                        MessageTemplateAction(
-                            label='用戶發送訊息',
-                            text='我知道這是1'
-                        ),
+                         MessageAction(
+                            label='詳細說明',
+                            text='%99'
+                        ),    
                         URITemplateAction(
                             label='了解陸戰九九旅',
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
@@ -371,43 +371,138 @@ def Carousel_Template2():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuo7n2_HNSFuT3T7Z9PUZmn1SDM6G6-iXfRC3FxdGTj7X1Wr0RzA',
-                    title='這是第二塊模板',
-                    text='副標題可以自己改',
+                    thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.6435-9/137565444_1789654437879603_1663324744227075487_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=Qdvp7-IBsFIAX9n38Mz&_nc_oc=AQlqH4-dGiX3y_hHseAsFYt5bzTIQDy1vFSwHCnA3TPXKsJVZlKtS3as8Px7-6StK_8&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT9rtbE17t2_kpt3eAfJLctbqWqZz70CzL5xrS-AuFm0dQ&oe=6278F1FD',
+                    title='陸戰六六旅',
+                    text='先鋒：為陸戰隊先鋒，身先士卒，勇猛向前。',
                     actions=[
                         PostbackTemplateAction(
-                            label='回傳一個訊息',
-                            data='這是ID=2'
+                            label='駐地：林口',
+                            data='將這個訊息偷偷回傳給機器人'
                         ),
-                        MessageTemplateAction(
-                            label='用戶發送訊息',
-                            text='我知道這是2'
-                        ),
+                         MessageAction(
+                            label='詳細說明',
+                            text='%66'
+                        ),    
                         URITemplateAction(
-                            label='進入2的網頁',
-                            uri='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Number_2_in_light_blue_rounded_square.svg/200px-Number_2_in_light_blue_rounded_square.svg.png'
+                            label='了解陸戰六六旅',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30328'
                         )
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Number_3_in_yellow_rounded_square.svg/200px-Number_3_in_yellow_rounded_square.svg.png',
-                    title='這是第三個模塊',
-                    text='最多可以放十個',
+                    thumbnail_image_url='https://scontent.ftpe3-1.fna.fbcdn.net/v/t39.30808-6/270089018_2055861934592184_3550641929738566681_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=meNODNqDhB0AX93LLFg&_nc_ht=scontent.ftpe3-1.fna&oh=00_AT_kiVcgiF3deBSGgIt1TNDsSNu6ArAposFpbYxKII8BDw&oe=625998CD',
+                    title='登陸戰車大隊',
+                    text='使命必達，送你抵達全世界每一個海灘',
                     actions=[
                         PostbackTemplateAction(
-                            label='回傳一個訊息',
-                            data='這是ID=3'
+                            label='駐地：左營',
+                            data='將這個訊息偷偷回傳給機器人'
                         ),
-                        MessageTemplateAction(
-                            label='用戶發送訊息',
-                            text='我知道這是3'
-                        ),
+                         MessageAction(
+                            label='詳細說明',
+                            text='%登車'
+                        ),    
                         URITemplateAction(
-                            label='uri2',
-                            uri='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Number_3_in_yellow_rounded_square.svg/200px-Number_3_in_yellow_rounded_square.svg.png'
+                            label='了解登陸戰車大隊',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30334'
                         )
                     ]
-                )
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.6435-9/45172095_2015223051856846_8514639047887421440_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=lpyWCbUs2GMAX84BpFW&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT-wwj-DKGndBThLD1ru5kAPd5knd7Xs_4-2LX6Xp0cjrQ&oe=627B2FFA',
+                    title='戰鬥支援大隊',
+                    text='支援作戰，捨我其誰',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：左營',
+                            data='將這個訊息偷偷回傳給機器人'
+                        ),
+                         MessageAction(
+                            label='詳細說明',
+                            text='%戰支'
+                        ),    
+                        URITemplateAction(
+                            label='了解戰鬥支援大隊',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30335'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.6435-9/55560596_2216608638384952_1125144525174472704_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=1A9oy56uebsAX9eW1gx&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT8PV5yBBn-pFmnyxxAxjlXlC8UgeeBPa0CcjUZ_bt_aKw&oe=627A96FA',
+                    title='烏坵守備大隊',
+                    text='同島一心，永保烏坵',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：烏坵',
+                            data='將這個訊息偷偷回傳給機器人'
+                        ),
+                         MessageAction(
+                            label='詳細說明',
+                            text='%烏坵'
+                        ),    
+                        URITemplateAction(
+                            label='了解烏坵守備大隊',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30332'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://media.nownews.com/nn_media/thumbnail/2021/01/1610253640473-95998eaff73245f1b416d187e5e47798-800x533.jpg?unShow=false',
+                    title='兩棲偵搜大隊',
+                    text='特種作戰，臨陣當先',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：左營',
+                            data='將這個訊息偷偷回傳給機器人'
+                        ),
+                         MessageAction(
+                            label='詳細說明',
+                            text='%兩棲偵搜'
+                        ),    
+                        URITemplateAction(
+                            label='了解兩棲偵搜大隊',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30333'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://scontent.ftpe3-1.fna.fbcdn.net/v/t1.6435-9/208936039_1920807614764284_53273476448588147_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=nEwQzP-NfqgAX8Rh_nb&_nc_ht=scontent.ftpe3-1.fna&oh=00_AT9JOjCWBjpxBC_dvEDvFjjGSVuztd-Np8QmRA1cTmhiKw&oe=627AE692',
+                    title='防空警衛群',
+                    text='鐵衛：負責海軍重要軍事設施、港口及要塞守衛任務，誓死守衛。',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：基隆、台北、蘇澳、高雄、馬公',
+                            data='將這個訊息偷偷回傳給機器人'
+                        ),
+                         MessageAction(
+                            label='詳細說明',
+                            text='%防警'
+                        ),    
+                        URITemplateAction(
+                            label='了解防空警衛群',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30331'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t39.30808-6/240529550_1964941920350853_4804579489274630620_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=Sla51cobEZIAX-kw8Vu&_nc_oc=AQke2uSY6glYUuDKjkXwirjOBzPX2Pi1QLppDQOJyQqWBIKitvH64WxZO8gsBIz4hpM&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT8zcwJ69z8U4HeQaIYEugqAa78qQfsw69RSqmKPQxmR-Q&oe=6258282F',
+                    title='三軍聯訓基地',
+                    text='聯勇：負責國軍三軍聯合作戰演訓及實彈操演之任務，代名為聯勇。',
+                    actions=[
+                        PostbackTemplateAction(
+                            label='駐地：恆春',
+                            data='將這個訊息偷偷回傳給機器人'
+                        ),
+                         MessageAction(
+                            label='詳細說明',
+                            text='%三軍基地'
+                        ),    
+                        URITemplateAction(
+                            label='了解三軍聯訓基地',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30331'
+                        )
+                    ]
+                ),
             ]
         )
     )
