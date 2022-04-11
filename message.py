@@ -181,10 +181,10 @@ def Confirm_Template():
     message = TemplateSendMessage(
         alt_text='你要找海軍招募員兼程式小編嗎？',
         template=ConfirmTemplate(
-            text="你要找海軍招募員兼小編嗎？？",
+            text="你要找海軍最帥招募員兼小編嗎？",
             actions=[
                 MessageTemplateAction(
-                    label="是的，他是誰",
+                    label="是的，他是誰？",
                     text="小編",
                 ),
                 MessageTemplateAction(
