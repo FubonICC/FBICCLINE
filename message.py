@@ -181,12 +181,11 @@ def Confirm_Template():
     message = TemplateSendMessage(
         alt_text='你要找海軍招募員兼程式小編嗎？',
         template=ConfirmTemplate(
-            text="是否註冊成為會員？",
+            text="你要找海軍招募員兼小編嗎？？",
             actions=[
-                PostbackTemplateAction(
-                    label="馬上註冊",
-                    text="現在、立刻、馬上",
-                    data="會員註冊"
+                MessageTemplateAction(
+                    label="是的，他是誰",
+                    text="小編",
                 ),
                 MessageTemplateAction(
                     label="查詢其他功能",
