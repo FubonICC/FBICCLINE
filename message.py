@@ -130,12 +130,8 @@ def buttons_message1():
             text="請選擇你要的服務",
             actions=[
                 MessageTemplateAction(
-                    label="我要認識海軍艦隊",
+                    label="我要認識海軍",
                     text="認識海軍"
-                ),
-                MessageTemplateAction(
-                    label="認識海軍陸岸單位",
-                    text="陸岸"
                 ),
                 MessageTemplateAction(
                     label="招募中心服務選單",
@@ -183,7 +179,7 @@ def buttons_message2():
 def Confirm_Template():
 
     message = TemplateSendMessage(
-        alt_text='是否註冊成為會員？',
+        alt_text='你要找海軍招募員兼程式小編嗎？',
         template=ConfirmTemplate(
             text="是否註冊成為會員？",
             actions=[

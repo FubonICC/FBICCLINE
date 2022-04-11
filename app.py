@@ -70,7 +70,7 @@ def handle_message(event):
     elif '我要報名' in msg:
         message = buttons_message()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '註冊會員' in msg:
+    elif '招募員' in msg:
         message = Confirm_Template()
         line_bot_api.reply_message(event.reply_token, message)
     elif '海軍艦隊' in msg:
