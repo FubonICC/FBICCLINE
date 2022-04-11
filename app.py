@@ -212,7 +212,7 @@ def handle_message(event):
     elif '認識海軍'in msg:
         message = buttons_message2()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '招募員'in msg:
+    elif '小編'in msg:
         message = ImageSendMessage(image_url="https://imgur.com/a/jbKYq8B")
         line_bot_api.reply_message(event.reply_token, message)
     else:
