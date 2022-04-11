@@ -213,7 +213,7 @@ def handle_message(event):
         message = buttons_message2()
         line_bot_api.reply_message(event.reply_token, message)
     elif '小編'in msg:
-        message = ImageSendMessage(image_url="https://scontent.ftpe3-2.fna.fbcdn.net/v/t39.30808-6/240529550_1964941920350853_4804579489274630620_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=Sla51cobEZIAX-kw8Vu&_nc_oc=AQke2uSY6glYUuDKjkXwirjOBzPX2Pi1QLppDQOJyQqWBIKitvH64WxZO8gsBIz4hpM&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT8zcwJ69z8U4HeQaIYEugqAa78qQfsw69RSqmKPQxmR-Q&oe=6258282F")
+        message = ImageSendMessage(original_content_url='https://i.imgur.com/evPGRYz.jpg')
         line_bot_api.reply_message(event.reply_token, message)
     else:
         message = buttons_message1()
