@@ -748,21 +748,21 @@ def image_carousel_message():
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/QOcAvjt.jpg",
+                    image_url="https://i.imgur.com/F1drsXQ.jpg",
                     action=URITemplateAction(
                         label="新鮮蔬菜",
                         uri="https://cdn.101mediaimage.com/img/file/1410464751urhp5.jpg"
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/Np7eFyj.jpg",
+                    image_url="https://i.imgur.com/RbA7gnG.jpg",
                     action=URITemplateAction(
                         label="可愛狗狗",
                         uri="http://imgm.cnmo-img.com.cn/appimg/screenpic/big/674/673928.JPG"
                     )
                 ),
                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/QRIa5Dz.jpg",
+                    image_url="https://i.imgur.com/A9NsmKb.jpg",
                     action=URITemplateAction(
                         label="可愛貓咪",
                         uri="https://m-miya.net/wp-content/uploads/2014/07/0-065-1.min_.jpg"
