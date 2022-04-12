@@ -22,20 +22,6 @@ def test():
                         uri="https://www.youtube.com/watch?v=PycUw2oflaY"
                     )
                 ),
-                ImageCarouselColumn(
-                    image_url="https://static.wixstatic.com/media/f96bc7_997399d1ed7249a4a32490b60a003b0c~mv2.png/v1/fill/w_480,h_269,al_c,q_85,usm_0.66_1.00_0.01/%E6%9C%AA%E5%91%BD%E5%90%8D.webp",
-                    action=URITemplateAction(
-                        label="海軍陸戰隊-英雄夢",
-                        uri="https://www.youtube.com/watch?v=uXJin6jdpeE"
-                    )
-                ),
-                ImageCarouselColumn(
-                    image_url="https://static.wixstatic.com/media/f96bc7_c09d8f379c8d4fea822fa99a4cc465d0~mv2.png/v1/fill/w_480,h_259,al_c,q_85,usm_0.66_1.00_0.01/%E6%9C%AA%E5%91%BD%E5%90%8D.webp",
-                    action=URITemplateAction(
-                        label="惡名昭彰 feat.館長",
-                        uri="https://www.youtube.com/watch?v=meFWwLI7glY"
-                    )
-                )
             ]
         )
     )
