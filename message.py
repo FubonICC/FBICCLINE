@@ -735,7 +735,7 @@ def Carousel_Template4():
 
 
 #TemplateSendMessage - ImageCarouselTemplate(圖片旋轉木馬)
-def image_carousel_message00():
+def image_carousel_message():
     message = TemplateSendMessage(
         alt_text='圖片旋轉木馬',
         template=ImageCarouselTemplate(
