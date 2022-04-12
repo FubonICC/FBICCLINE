@@ -773,34 +773,7 @@ def image_carousel_message00():
     )
     return message
 
-def image_carousel_message1():
-    message = TemplateSendMessage1(
-        alt_text='圖片旋轉木馬',
-        template=ImageCarouselTemplate1(
-            columns=[
-                ImageCarouselColumn1(
-                    image_url="https://i.imgur.com/CfQUgR3.png",
-                    action=URITemplateAction(
-                        label="隊徽",
-                        uri="https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=42132"
-                    )
-                ),
-                ImageCarouselColumn(
-                    image_url="https://i.imgur.com/F1drsXQ.jpg",
-                ),
-                ImageCarouselColumn(
-                    image_url="https://i.imgur.com/RbA7gnG.jpg",
-                ),
-                ImageCarouselColumn(
-                    image_url="https://i.imgur.com/A9NsmKb.jpg",
-                )
-                 ImageCarouselColumn(
-                    image_url="https://i.imgur.com/Qc9AcMt.jpg",
-                )               
-            ]
-        )
-    )
-    return message
+
 
 
 #關於LINEBOT聊天內容範例
