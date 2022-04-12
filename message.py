@@ -758,14 +758,14 @@ def image_carousel_message():
                     image_url="https://i.imgur.com/RbA7gnG.jpg",
                     action=URITemplateAction(
                         label="點此放大",
-                        uri="https://i.imgur.com/F1drsXQ.jpg"
+                        uri="https://i.imgur.com/RbA7gnG.jpg"
                     )
                 ),
                 ImageCarouselColumn(
                     image_url="https://i.imgur.com/A9NsmKb.jpg",
                     action=URITemplateAction(
                         label="點此放大",
-                        uri="https://i.imgur.com/F1drsXQ.jpg"
+                        uri="https://i.imgur.com/A9NsmKb.jpg"
                     )
                 )
             ]
