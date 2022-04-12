@@ -741,31 +741,31 @@ def image_carousel_message():
         template=ImageCarouselTemplate(
             columns=[
                 ImageCarouselColumn(
-                    image_url="https://drive.google.com/file/d/1NzmAMTnsLVI7w2r0R-gK1I6Xq2ebIPvv/view?usp=sharing",
+                    image_url="https://i.imgur.com/CfQUgR3.png",
                     action=URITemplateAction(
-                        label="2022形象影片",
-                        uri="https://www.youtube.com/watch?v=SmeYkoJwL3A"
+                        label="隊徽",
+                        uri="https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=42132"
                     )
                 ),
                 ImageCarouselColumn(
                     image_url="https://i.imgur.com/F1drsXQ.jpg",
                     action=URITemplateAction(
-                        label="新鮮蔬菜",
-                        uri="https://cdn.101mediaimage.com/img/file/1410464751urhp5.jpg"
+                        label="點此放大",
+                        uri="https://i.imgur.com/F1drsXQ.jpg"
                     )
                 ),
                 ImageCarouselColumn(
                     image_url="https://i.imgur.com/RbA7gnG.jpg",
                     action=URITemplateAction(
-                        label="可愛狗狗",
-                        uri="http://imgm.cnmo-img.com.cn/appimg/screenpic/big/674/673928.JPG"
+                        label="點此放大",
+                        uri="https://i.imgur.com/F1drsXQ.jpg"
                     )
                 ),
                 ImageCarouselColumn(
                     image_url="https://i.imgur.com/A9NsmKb.jpg",
                     action=URITemplateAction(
-                        label="可愛貓咪",
-                        uri="https://m-miya.net/wp-content/uploads/2014/07/0-065-1.min_.jpg"
+                        label="點此放大",
+                        uri="https://i.imgur.com/F1drsXQ.jpg"
                     )
                 )
             ]
