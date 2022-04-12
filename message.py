@@ -800,7 +800,7 @@ def image_carousel_message1():
             ]
         )
     )
-    return message
+line_bot_api.reply_message(event.reply_token, message)
 
 
 
