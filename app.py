@@ -153,9 +153,6 @@ def handle_message(event):
     elif '%戰搜'in msg:     
         message = TextSendMessage(text="✈︎ 海軍海上戰術偵搜大隊 ✈︎\n駐地：空軍屏東基地✈︎\n🗒︎單位沿革🗒︎\n    原為中華民國陸軍航空特戰指揮部戰術偵搜大隊(R.O.C.Army Tactical Reconnaissance Group)，以國家中山科學研究院研發的銳鳶無人機為主要裝備，銳鳶無人機相關裝備及操作人員全都移撥給海軍，運用具備「損小、效高、易行、價廉」之裝備，可強化聯合監偵作業機制及不對稱作戰戰力，俾以提升聯合作戰效益，爭取預警與反應時間。\n \n🔱主力裝備🔱\n🇹🇼銳鳶無人機🇹🇼\n \n⚔指揮體系⚔\n教勤中隊\n偵搜一中隊\n偵搜二中隊\n偵搜三中隊\n \n  \n💰薪資待遇💰\n戰鬥加給：5000元\n💎各階待遇💎\n士兵起薪：40320元\n士官起薪：46450元\n軍官起薪：55560元" )
         line_bot_api.reply_message(event.reply_token, message)  
-    elif '%戰搜圖庫' in msg:
-        message = Image_carousel_message1()
-        line_bot_api.reply_message(event.reply_token, message)
     elif '%反潛'in msg:     
         message = TextSendMessage(text="🚁 海軍反潛航空大隊 🚁\n🗒︎單位特性說明🗒︎\n    S-70C(M)反潛直升機是目前海軍反潛主力機種，可搭配成功級、康定級、派里級各式艦種艦執行偵蒐、反潛任務；由於S-70C(M)具有夜航能力，可全天候執行海上搜救任務，海巡署日前也特定商請海軍執行「高雄艦」落艦演練，證實同級艦能搭載加強偵蒐、救難工作。\n🚁主力裝備🚁\n🇹🇼S-70C(M)-1型反潛直升機🇹🇼\n🇹🇼500MD/ASW型海鷹反潛直升機🇹🇼\n \n駐地：海軍左營基地\n \n⚔指揮體系⚔\n第七O一作戰隊\n第七O二作戰隊\n修護補給隊\n基地勤務隊\n \n \n💰薪資待遇💰\n修護加給(士兵)：500元\n修護加給(士官)：3000元\n戰航管加給：4100-8200元\n偵潛士官加給：17700-22100元\n偵潛軍官加給：27100-33900元\n飛行軍官加給：36900-45100元\n \n💎各階待遇💎\n士兵起薪：35320元\n士官起薪：41450元\n軍官起薪：50560元\n飛行軍官起薪：87460元" )
         line_bot_api.reply_message(event.reply_token, message) 
