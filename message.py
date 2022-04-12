@@ -525,6 +525,10 @@ def Carousel_Template3():
                             label='前往網頁',
                             uri='https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%B5%B7%E8%BB%8D%E6%B5%B7%E4%B8%8A%E6%88%B0%E8%A1%93%E5%81%B5%E8%92%90%E5%A4%A7%E9%9A%8A'
                         )
+                        MessageAction(
+                            label='隊徽及圖片',
+                            text='%戰搜圖庫'
+                        ),                          
                     ]
                 ),
                 CarouselColumn(
@@ -735,7 +739,7 @@ def Carousel_Template4():
 
 
 #TemplateSendMessage - ImageCarouselTemplate(圖片旋轉木馬)
-def image_carousel_message1():
+def image_carousel_message99():
     message = TemplateSendMessage(
         alt_text='圖片旋轉木馬',
         template=ImageCarouselTemplate(
