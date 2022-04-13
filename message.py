@@ -175,6 +175,33 @@ def buttons_message2():
     )
     return message
 
+def buttons_message3():
+    message = TemplateSendMessage(
+        alt_text='海軍官網',
+        template=ButtonsTemplate(
+            thumbnail_image_url="https://navy.mnd.gov.tw/Photo/Ban/202105051632_534790.jpg",
+            title="🇹🇼中華民國海軍官方網站🇹🇼",
+            text="還用問嗎？通通加就對了！",
+            actions=[
+                URITemplateAction(
+                    label="海軍官方網站",
+                    uri='https://navy.mnd.gov.tw/index.aspx'
+                ),
+                URITemplateAction(
+                    label="海軍Fackbook",
+                    uri='https://www.facebook.com/ROCNAVY.tw'
+                ),
+                URITemplateAction(
+                    label="海軍Instagram",
+                    uri='https://www.instagram.com/r.o.c.navy/'
+                )
+            ]
+        )
+    )
+    return message
+
+
+
 #TemplateSendMessage - ConfirmTemplate(確認介面訊息)
 def Confirm_Template():
 
