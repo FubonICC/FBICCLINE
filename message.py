@@ -179,9 +179,9 @@ def buttons_message3():
     message = TemplateSendMessage(
         alt_text='海軍官網',
         template=ButtonsTemplate(
-            thumbnail_image_url="https://navy.mnd.gov.tw/Photo/Ban/202105051632_534790.jpg",
+            thumbnail_image_url="https://i.imgur.com/l6tGJCx.png",
             title="🇹🇼中華民國海軍官方網站🇹🇼",
-            text="還用問嗎？通通加就對了！",
+            text="官網有哪些？還用問嗎？通通加就對了！",
             actions=[
                 URITemplateAction(
                     label="海軍官方網站",
