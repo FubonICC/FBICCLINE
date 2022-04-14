@@ -22,6 +22,13 @@ def test():
                         uri="https://www.youtube.com/watch?v=PycUw2oflaY"
                     )
                 ),
+                ImageCarouselColumn(
+                    image_url="https://i.imgur.com/1RSbttW.jpg",
+                    action=URITemplateAction(
+                        label="什麼是陸戰隊？",
+                        uri="https://drive.google.com/file/d/1Rg0xP6zgMP_UB6WDsUrnFZLNpABHvBwq/view?usp=drivesdk"
+                    )
+                ),
             ]
         )
     )
