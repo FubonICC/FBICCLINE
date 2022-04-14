@@ -213,7 +213,7 @@ def handle_message(event):
         line_bot_api.reply_message(event.reply_token, message)
     #其他功能    
     elif '海軍小百科預告'in msg:
-        message = VideoSendMessage(original_content_url='https://youtu.be/u6RPO8Ggv6M?list=PLK1AmfXeMucyw-2IO8iTGLwL8SCFsbYtK', preview_image_url='https://i.imgur.com/upYB4x9.jpg')
+        message = VideoSendMessage(original_content_url='https://www.youtube.com/watch?v=u6RPO8Ggv6M&list=PLK1AmfXeMucyw-2IO8iTGLwL8SCFsbYtK&index=30', preview_image_url='https://i.imgur.com/upYB4x9.jpg')
         line_bot_api.reply_message(event.reply_token, message)
     elif '認識海軍'in msg:
         message = buttons_message2()
