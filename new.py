@@ -31,9 +31,9 @@ def test():
                 ),
                 ImageCarouselColumn(
                     image_url="https://i.imgur.com/upYB4x9.jpg",
-                    action=VideoTemplateAction(
+                    action=MessageAction(
                         label="海軍小百科預告",
-                        original_content_url='https://i.imgur.com/ds1LiqC.mp4'
+                        text='海軍小百科預告'
                     )
                 ),
             ]
