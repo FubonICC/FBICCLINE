@@ -200,6 +200,23 @@ def buttons_message3():
     )
     return message
 
+def buttons_message4():
+    message = TemplateSendMessage(
+        alt_text='海軍各式簡報',
+        template=ButtonsTemplate(
+            thumbnail_image_url="https://imgur.com/a/vIYy7mn",
+            title="🇹🇼海軍招募簡報🇹🇼",
+            text="點選簡報了解海軍！",
+            actions=[
+                URITemplateAction(
+                    label="海軍軍種單位簡介-長版",
+                    uri='https://docs.google.com/presentation/d/18kc8gOOQ0DNflONoooLIrXJfrhpYGWdBmpo7DLb4UKM/edit?usp=sharing'
+                )
+            ]
+        )
+    )
+    return message
+
 
 
 #TemplateSendMessage - ConfirmTemplate(確認介面訊息)

@@ -221,6 +221,9 @@ def handle_message(event):
     elif '海軍官網'in msg:
         message = buttons_message3()
         line_bot_api.reply_message(event.reply_token, message)
+    elif '海軍簡報'in msg:
+        message = buttons_message4()
+        line_bot_api.reply_message(event.reply_token, message)
     elif '小編'in msg:
         message = ImageSendMessage(original_content_url="https://i.imgur.com/evPGRYz.jpg", preview_image_url="https://i.imgur.com/evPGRYz.jpg")
         line_bot_api.reply_message(event.reply_token, message)
