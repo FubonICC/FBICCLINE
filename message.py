@@ -204,7 +204,7 @@ def buttons_message4():
     message = TemplateSendMessage(
         alt_text='海軍各式簡報',
         template=ButtonsTemplate(
-            thumbnail_image_url="https://imgur.com/a/vIYy7mn",
+            thumbnail_image_url="https://i.imgur.com/OmPVomQ.png",
             title="🇹🇼海軍招募簡報🇹🇼",
             text="點選簡報了解海軍！",
             actions=[
