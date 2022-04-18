@@ -210,7 +210,7 @@ def buttons_message4():
             actions=[
                 URITemplateAction(
                     label="海軍軍種單位簡介-長版",
-                    uri='https://docs.google.com/presentation/d/e/2PACX-1vTd9pFBXfq-CaMElQ0N3Ymwo_Lz3CXCSBWapmcl8iaj3PJoEd0y0wfS1CQQuNjHLIlCK9qzSQNWsAYo/pub?start=true&loop=true&delayms=60000'
+                    uri='https://docs.google.com/presentation/d/e/2PACX-1vRIgz341LJvPmyaf3qXDFm0B1y-UJiywmoNAb_bLMgjCM7DF4RVb45eqwne50LRhP3lWvzoEFO3LFsC/pub?start=true&loop=false&delayms=3000'
                 )
             ]
         )
