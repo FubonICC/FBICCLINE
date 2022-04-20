@@ -592,7 +592,7 @@ def Carousel_Template3():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.6435-9/126933144_1746128488898865_1472026323777596786_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=ufSob08X-pkAX_x7kDe&_nc_ht=scontent.fkhh1-1.fna&oh=00_AT8K51NCTW9jyHCVlP1DJnAUQufMhV9356ZupivPXlxoqg&oe=624FDFD3',
+                    thumbnail_image_url='https://i.imgur.com/4cwtrFf.jpg',
                     title='海軍海洋監偵指揮部',
                     text='海軍雷達站',
                     actions=[
