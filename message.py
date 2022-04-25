@@ -717,9 +717,9 @@ def Carousel_Template4():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://cnmoo.mnd.gov.tw/UploadFile/MainImg/MainImg_16162132.jpg',
+                    thumbnail_image_url='https://i.imgur.com/ln2W9Id.jpg',
                     title='大氣海洋局',
-                    text='海軍版中央氣象台',
+                    text='風雲審天機 滄海探奧義',
                     actions=[
                         PostbackTemplateAction(
                             label='駐地：高雄左營',
@@ -729,9 +729,9 @@ def Carousel_Template4():
                             label='詳細說明',
                             text='%大氣'
                         ),
-                        URITemplateAction(
-                            label='前往網頁',
-                            uri='https://cnmoo.mnd.gov.tw/'
+                         MessageAction(
+                            label='隊徽及照片',
+                            text='%圖庫大氣'
                         )
                     ]
                 ),
@@ -820,7 +820,7 @@ def image_carousel_message():
 
 def image_carousel_message1():
     message = TemplateSendMessage(
-        alt_text='圖片旋轉木馬',
+        alt_text='海上戰術偵搜大隊',
         template=ImageCarouselTemplate(
             columns=[
                 ImageCarouselColumn(
@@ -847,6 +847,36 @@ def image_carousel_message1():
     )
     return message
 
-
+def image_carousel_message2():
+    message = TemplateSendMessage(
+        alt_text='大氣海洋局',
+        template=ImageCarouselTemplate(
+            columns=[
+                ImageCarouselColumn(
+                    image_url="https://i.imgur.com/QAPaXwy.jpg",
+                    action=URITemplateAction(
+                        label="隊徽",
+                        uri="https://cnmoo.mnd.gov.tw/Default.aspx"
+                    )
+                ),
+                ImageCarouselColumn(
+                    image_url="https://i.imgur.com/lvdTBBk.jpg",
+                ),
+                ImageCarouselColumn(
+                    image_url="https://i.imgur.com/3K9YntV.jpg",
+                ),
+                ImageCarouselColumn(
+                    image_url="https://i.imgur.com/TRm1AJS.jpg",
+                ),
+                 ImageCarouselColumn(
+                    image_url="https://i.imgur.com/4GdAaUs.jpg",
+                ),
+                 ImageCarouselColumn(
+                    image_url="https://i.imgur.com/RYld662.jpg",
+                ),
+            ]
+        )
+    )
+    return message
 
 #關於LINEBOT聊天內容範例
