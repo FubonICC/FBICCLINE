@@ -222,7 +222,7 @@ def buttons_message5():
     message = TemplateSendMessage(
         alt_text='報名簡章',
         template=ButtonsTemplate(
-            thumbnail_image_url="https://i.imgur.com/9su5voz.png",
+            thumbnail_image_url="https://i.imgur.com/EemqasG.jpg",
             title="🇹🇼🔥111年報名簡章🔥🇹🇼",
             text="點選簡報了解海軍！",
             actions=[

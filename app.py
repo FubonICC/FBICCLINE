@@ -227,6 +227,9 @@ def handle_message(event):
     elif '海軍簡報'in msg:
         message = buttons_message4()
         line_bot_api.reply_message(event.reply_token, message)
+    elif '報名簡章'in msg:
+        message = buttons_message5()
+        line_bot_api.reply_message(event.reply_token, message)
     elif '色弱'in msg:     
         message = image_carousel_message3()
         line_bot_api.reply_message(event.reply_token, message) 
