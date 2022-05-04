@@ -227,6 +227,9 @@ def handle_message(event):
     elif '海軍簡報'in msg:
         message = buttons_message4()
         line_bot_api.reply_message(event.reply_token, message)
+    elif '色弱'in msg:     
+        message = image_carousel_message3()
+        line_bot_api.reply_message(event.reply_token, message) 
     elif '海偵部薪資圖'in msg:
         message = ImageSendMessage(original_content_url="https://i.imgur.com/00GpEaj.jpg", preview_image_url="https://i.imgur.com/00GpEaj.jpg")
         line_bot_api.reply_message(event.reply_token, message)

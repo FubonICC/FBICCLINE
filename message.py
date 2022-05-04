@@ -870,4 +870,22 @@ def image_carousel_message2():
     )
     return message
 
+def image_carousel_message3():
+    message = TemplateSendMessage(
+        alt_text='色弱測驗',
+        template=ImageCarouselTemplate(
+            columns=[
+                ImageCarouselColumn(
+                    image_url="https://i.imgur.com/cMRuwnZ.jpg",
+                    action=URITemplateAction(
+                        label="開始測試",
+                        uri="https://online.fliphtml5.com/stwml/blro/"
+                    )
+                )
+            ]
+        )
+    )
+    return message
+
+
 #關於LINEBOT聊天內容範例
