@@ -218,6 +218,28 @@ def buttons_message4():
     )
     return message
 
+def buttons_message5():
+    message = TemplateSendMessage(
+        alt_text='報名簡章',
+        template=ButtonsTemplate(
+            thumbnail_image_url="https://i.imgur.com/9su5voz.png",
+            title="🇹🇼🔥111年報名簡章🔥🇹🇼",
+            text="點選簡報了解海軍！",
+            actions=[
+                URITemplateAction(
+                    label="志願役士兵簡章",
+                    uri='https://online.fliphtml5.com/stwml/wdcu/'
+                ),
+                URITemplateAction(
+                    label="專業預備軍官預備士官班簡章",
+                    uri='https://online.fliphtml5.com/stwml/bgak/'
+                )
+            ]
+
+        )
+    )
+    return message
+
 
 
 #TemplateSendMessage - ConfirmTemplate(確認介面訊息)
