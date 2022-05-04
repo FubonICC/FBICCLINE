@@ -206,7 +206,7 @@ def buttons_message4():
         template=ButtonsTemplate(
             thumbnail_image_url="https://i.imgur.com/9su5voz.png",
             title="🇹🇼海軍招募簡報🇹🇼",
-            text="還不快點來報名！",
+            text="點選簡報了解海軍！",
             actions=[
                 URITemplateAction(
                     label="海軍軍種單位簡介-長版",
@@ -224,7 +224,7 @@ def buttons_message5():
         template=ButtonsTemplate(
             thumbnail_image_url="https://i.imgur.com/EemqasG.jpg",
             title="🇹🇼🔥111年報名簡章🔥🇹🇼",
-            text="點選簡報了解海軍！",
+            text="點選簡章內容了解最新資訊！",
             actions=[
                 URITemplateAction(
                     label="志願役士兵簡章",
