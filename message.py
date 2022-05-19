@@ -188,7 +188,7 @@ def buttons_message3():
                     uri='https://navy.mnd.gov.tw/index.aspx'
                 ),
                 URITemplateAction(
-                    label="海軍Fackbook",
+                    label="海軍Facebook",
                     uri='https://www.facebook.com/ROCNAVY.tw'
                 ),
                 URITemplateAction(
