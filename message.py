@@ -3,7 +3,7 @@ from linebot import (LineBotApi, WebhookHandler)
 from linebot.exceptions import (InvalidSignatureError)
 from linebot.models import *
 
-#ImagemapSendMessage(組圖訊息)
+#ImagemapSendMessage(圖片地圖訊息)
 def imagemap_message():
     message = ImagemapSendMessage(
         base_url="https://i.imgur.com/J5DELEi.jpg",
