@@ -471,7 +471,7 @@ def Carousel_Template2():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.6435-9/45172095_2015223051856846_8514639047887421440_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=lpyWCbUs2GMAX84BpFW&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT-wwj-DKGndBThLD1ru5kAPd5knd7Xs_4-2LX6Xp0cjrQ&oe=627B2FFA',
+                    thumbnail_image_url='https://i.imgur.com/cjRe6MQ.jpg',
                     title='戰鬥支援大隊',
                     text='支援作戰，捨我其誰',
                     actions=[
