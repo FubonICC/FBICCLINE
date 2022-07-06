@@ -414,7 +414,7 @@ def Carousel_Template2():
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://scontent.ftpe3-1.fna.fbcdn.net/v/t39.30808-6/241519169_1970387399806305_3122669426780150672_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=13R-vVhSg54AX83tdtF&_nc_ht=scontent.ftpe3-1.fna&oh=00_AT9lStYDpwOT9OGbCAejY5ynWBvEprl0W5uOquOjlN4hBg&oe=6257EF14',
+                    thumbnail_image_url='https://i.imgur.com/dA6kJYp.jpg',
                     title='陸戰九九旅',
                     text='鐵軍：鋼鐵勁旅，防衛固守，有如銅牆鐵壁之堅強勁旅',
                     actions=[
@@ -433,7 +433,7 @@ def Carousel_Template2():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.6435-9/137565444_1789654437879603_1663324744227075487_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=Qdvp7-IBsFIAX9n38Mz&_nc_oc=AQlqH4-dGiX3y_hHseAsFYt5bzTIQDy1vFSwHCnA3TPXKsJVZlKtS3as8Px7-6StK_8&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT9rtbE17t2_kpt3eAfJLctbqWqZz70CzL5xrS-AuFm0dQ&oe=6278F1FD',
+                    thumbnail_image_url='https://i.imgur.com/wiqdqSx.jpg',
                     title='陸戰六六旅',
                     text='先鋒：為陸戰隊先鋒，身先士卒，勇猛向前。',
                     actions=[
@@ -452,7 +452,7 @@ def Carousel_Template2():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://scontent.ftpe3-1.fna.fbcdn.net/v/t39.30808-6/270089018_2055861934592184_3550641929738566681_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=meNODNqDhB0AX93LLFg&_nc_ht=scontent.ftpe3-1.fna&oh=00_AT_kiVcgiF3deBSGgIt1TNDsSNu6ArAposFpbYxKII8BDw&oe=625998CD',
+                    thumbnail_image_url='https://i.imgur.com/9LzPg0M.jpg',
                     title='登陸戰車大隊',
                     text='使命必達，送你抵達全世界每一個海灘',
                     actions=[
@@ -490,7 +490,7 @@ def Carousel_Template2():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.6435-9/55560596_2216608638384952_1125144525174472704_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=1A9oy56uebsAX9eW1gx&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT8PV5yBBn-pFmnyxxAxjlXlC8UgeeBPa0CcjUZ_bt_aKw&oe=627A96FA',
+                    thumbnail_image_url='https://i.imgur.com/1yjNlX4.jpg',
                     title='烏坵守備大隊',
                     text='同島一心，永保烏坵',
                     actions=[
@@ -528,7 +528,7 @@ def Carousel_Template2():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://scontent.ftpe3-1.fna.fbcdn.net/v/t1.6435-9/208936039_1920807614764284_53273476448588147_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=nEwQzP-NfqgAX8Rh_nb&_nc_ht=scontent.ftpe3-1.fna&oh=00_AT9JOjCWBjpxBC_dvEDvFjjGSVuztd-Np8QmRA1cTmhiKw&oe=627AE692',
+                    thumbnail_image_url='https://i.imgur.com/4DMQoX8.jpg',
                     title='防空警衛群',
                     text='鐵衛：負責海軍重要軍事設施、港口及要塞守衛任務，誓死守衛。',
                     actions=[
@@ -547,7 +547,7 @@ def Carousel_Template2():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t39.30808-6/240529550_1964941920350853_4804579489274630620_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=Sla51cobEZIAX-kw8Vu&_nc_oc=AQke2uSY6glYUuDKjkXwirjOBzPX2Pi1QLppDQOJyQqWBIKitvH64WxZO8gsBIz4hpM&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT8zcwJ69z8U4HeQaIYEugqAa78qQfsw69RSqmKPQxmR-Q&oe=6258282F',
+                    thumbnail_image_url='https://i.imgur.com/4OpUD9p.jpg',
                     title='三軍聯訓基地',
                     text='聯勇：負責國軍三軍聯合作戰演訓及實彈操演之任務，代名為聯勇。',
                     actions=[
@@ -663,7 +663,7 @@ def Carousel_Template4():
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t39.30808-6/277171938_2126818857496491_1956194813101538323_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=1ZLvbquGrQIAX9QOtuX&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT_UiTFHeF6yICYEpnwjzIwSUrouuZx8NQZjkBgigsTjRg&oe=6255BD08',
+                    thumbnail_image_url='https://i.imgur.com/RPMGYzw.jpg',
                     title=' 海軍教育訓練暨準則發展指揮部',
                     text='海軍新兵訓練中心、海軍技術學校\n海軍陸戰隊新兵訓練中心、海軍陸戰隊學校',
                     actions=[
@@ -758,7 +758,7 @@ def Carousel_Template4():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://scontent.ftpe3-2.fna.fbcdn.net/v/t39.30808-6/276163906_2125863730925337_6027043035640067989_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=3hRQRo4g8rIAX9Ih0vZ&_nc_ht=scontent.ftpe3-2.fna&oh=00_AT9uQFxzq3mn9f8qQ-YjoEwz-F-eDBUOwWO0-xu07Xjjqg&oe=6257DB1C',
+                    thumbnail_image_url='https://i.imgur.com/z8t8tXr.jpg',
                     title='海軍造船發展中心',
                     text='國艦國造戰力強',
                     actions=[
