@@ -276,8 +276,8 @@ def Carousel_Template1():
                     text='主力軍艦：康定級軍艦',
                     actions=[
                         MessageAction(
-                            label='駐地：左營軍港',
-                            text='左營軍港'
+                            label='區域：南部',
+                            text='南部地區'
                         ),
                         MessageAction(
                             label='詳細說明',
@@ -295,8 +295,8 @@ def Carousel_Template1():
                     text='主力軍艦：錦江級軍艦、沱江級軍艦、塔江級軍艦、光華六號飛彈快艇',
                     actions=[
                         MessageAction(
-                            label='駐地：基隆軍港',
-                            text='基隆軍港'
+                            label='區域：北部',
+                            text='北部地區'
                         ),
                         MessageAction(
                             label='詳細說明',
@@ -314,8 +314,8 @@ def Carousel_Template1():
                     text='主力軍艦：成功級軍艦',
                     actions=[
                         MessageAction(
-                            label='駐地：馬公軍港',
-                            text='馬公軍港'
+                            label='區域：離島',
+                            text='離島地區'
                         ),
                         MessageAction(
                             label='詳細說明',
@@ -333,8 +333,8 @@ def Carousel_Template1():
                     text='主力軍艦：兩棲登陸艦艇、油彈補給艦',
                     actions=[
                         MessageAction(
-                            label='駐地：左營軍港',
-                            text='左營軍港'
+                            label='區域：南部',
+                            text='南部地區'
                         ),
                         MessageAction(
                             label='詳細說明',
@@ -352,8 +352,8 @@ def Carousel_Template1():
                     text='主力軍艦：紀德級驅逐艦、濟陽級巡防艦',
                     actions=[
                         MessageAction(
-                            label='駐地：蘇澳軍港',
-                            text='蘇澳軍港'
+                            label='區域：南部',
+                            text='南部地區'
                         ),
                         MessageAction(
                             label='詳細說明',
@@ -371,8 +371,8 @@ def Carousel_Template1():
                     text='主力軍艦：快速布雷艇、掃/獵雷艦、海洋測量艦、救難艦、遠洋拖船、水下作業大隊',
                     actions=[
                         MessageAction(
-                            label='駐地：左營軍港',
-                            text='左營軍港'
+                            label='區域：南部',
+                            text='南部地區'
                         ),
                         MessageAction(
                             label='詳細說明',
@@ -390,8 +390,8 @@ def Carousel_Template1():
                     text='主力軍艦：茄比級潛艦、劍龍級潛艦',
                     actions=[
                         MessageAction(
-                            label='駐地：左營軍港',
-                            text='左營軍港'
+                            label='區域：南部',
+                            text='南部地區'
                         ),
                         MessageAction(
                             label='詳細說明',
@@ -419,7 +419,7 @@ def Carousel_Template2():
                     text='鐵軍：鋼鐵勁旅，防衛固守，有如銅牆鐵壁之堅強勁旅',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：林園',
+                            label='區域：南部',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
                          MessageAction(
@@ -438,7 +438,7 @@ def Carousel_Template2():
                     text='先鋒：為陸戰隊先鋒，身先士卒，勇猛向前。',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：林口',
+                            label='區域：北部',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
                          MessageAction(
@@ -457,7 +457,7 @@ def Carousel_Template2():
                     text='使命必達，送你抵達全世界每一個海灘',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：左營',
+                            label='區域：南部',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
                          MessageAction(
@@ -476,7 +476,7 @@ def Carousel_Template2():
                     text='支援作戰，捨我其誰',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：左營',
+                            label='區域：南部',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
                          MessageAction(
@@ -495,7 +495,7 @@ def Carousel_Template2():
                     text='同島一心，永保烏坵',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：烏坵',
+                            label='區域：外島',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
                          MessageAction(
@@ -514,7 +514,7 @@ def Carousel_Template2():
                     text='特種作戰，臨陣當先',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：左營',
+                            label='區域：南部',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
                          MessageAction(
@@ -533,7 +533,7 @@ def Carousel_Template2():
                     text='鐵衛：負責海軍重要軍事設施、港口及要塞守衛任務，誓死守衛。',
                     actions=[
                         PostbackTemplateAction(
-                            label='基隆、台北、蘇澳、高雄、馬公',
+                            label='區域：北、中、南部、離島',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
                          MessageAction(
@@ -552,7 +552,7 @@ def Carousel_Template2():
                     text='聯勇：負責國軍三軍聯合作戰演訓及實彈操演之任務，代名為聯勇。',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：恆春',
+                            label='區域：南部',
                             data='將這個訊息偷偷回傳給機器人'
                         ),
                          MessageAction(
@@ -581,7 +581,7 @@ def Carousel_Template3():
                     text='銳鳶無人機',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：屏東空軍基地',
+                            label='區域：南部',
                             data='A'
                         ),
                          MessageAction(
@@ -600,7 +600,7 @@ def Carousel_Template3():
                     text='S-70C反潛直升機、500MD反潛直昇機',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：左營',
+                            label='區域：南部',
                             data='這是ID=2'
                         ),
                         MessageAction(
@@ -619,7 +619,7 @@ def Carousel_Template3():
                     text='海軍雷達站',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：全台各地',
+                            label='區域：北、中、南部、外島、離島',
                             data='這是ID=2'
                         ),
                         MessageAction(
@@ -638,7 +638,7 @@ def Carousel_Template3():
                     text='海軍飛彈部隊',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：全台各地',
+                            label='區域：北、中、南部、外島、離島',
                             data='這是ID=2'
                         ),
                         MessageAction(
@@ -668,7 +668,7 @@ def Carousel_Template4():
                     text='海軍新兵訓練中心、海軍技術學校\n海軍陸戰隊新兵訓練中心、海軍陸戰隊學校',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：左營、龍泉',
+                            label='區域：南部地區',
                             data='A'
                         ),
                          MessageAction(
@@ -687,7 +687,7 @@ def Carousel_Template4():
                     text='左營後勤支援指揮部、蘇澳後勤支援指揮部\n基隆後勤支援指揮部、馬公後勤支援指揮部\n戰鬥系統工廠、補給總庫',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：左營、蘇澳、基隆、馬公',
+                            label='區域：北部、南部、離島',
                             data='這是ID=2'
                         ),
                         MessageAction(
@@ -706,7 +706,7 @@ def Carousel_Template4():
                     text='海軍版中華電信',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：台北、蘇澳、馬公、左營',
+                            label='區域：北部、南部、離島',
                             data='這是ID=2'
                         ),
                         MessageAction(
@@ -725,7 +725,7 @@ def Carousel_Template4():
                     text='海軍儀隊、海軍樂隊\n汽車隊、勤務隊',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：台北大直',
+                            label='區域：北部',
                             data='這是ID=2'
                         ),
                         MessageAction(
@@ -744,7 +744,7 @@ def Carousel_Template4():
                     text='風雲審天機 滄海探奧義',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：高雄左營',
+                            label='區域：南部',
                             data='這是ID=2'
                         ),
                         MessageAction(
@@ -763,7 +763,7 @@ def Carousel_Template4():
                     text='國艦國造戰力強',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：高雄左營',
+                            label='區域：南部',
                             data='這是ID=2'
                         ),
                         MessageAction(
@@ -782,7 +782,7 @@ def Carousel_Template4():
                     text='海軍菁英幹部新手村',
                     actions=[
                         PostbackTemplateAction(
-                            label='駐地：高雄左營',
+                            label='區域：南部',
                             data='這是ID=2'
                         ),
                         MessageAction(
