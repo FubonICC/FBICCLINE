@@ -223,12 +223,12 @@ def buttons_message5():
         alt_text='報名簡章',
         template=ButtonsTemplate(
             thumbnail_image_url="https://i.imgur.com/EemqasG.jpg",
-            title="🇹🇼🔥111年報名簡章🔥🇹🇼",
+            title="🇹🇼🔥112年報名簡章🔥🇹🇼",
             text="點選簡章內容了解最新資訊！",
             actions=[
                 URITemplateAction(
                     label="志願役士兵簡章",
-                    uri='https://online.fliphtml5.com/stwml/wdcu/'
+                    uri='https://online.fliphtml5.com/stwml/hifc/'
                 ),
                 URITemplateAction(
                     label="專業預備軍官預備士官班簡章",
