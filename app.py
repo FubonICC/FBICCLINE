@@ -239,6 +239,9 @@ def handle_message(event):
     elif '志兵正期比較圖'in msg:
         message = ImageSendMessage(original_content_url="https://i.imgur.com/n1Tj4xQ.jpg", preview_image_url="https://i.imgur.com/n1Tj4xQ.jpg")
         line_bot_api.reply_message(event.reply_token, message)
+    elif '112梯次'in msg:
+        message = ImageSendMessage(original_content_url="https://i.imgur.com/wzszzFx.jpg", preview_image_url="https://i.imgur.com/wzszzFx.jpg")
+        line_bot_api.reply_message(event.reply_token, message)        
     elif '小編'in msg:
         message = ImageSendMessage(original_content_url="https://i.imgur.com/evPGRYz.jpg", preview_image_url="https://i.imgur.com/evPGRYz.jpg")
         line_bot_api.reply_message(event.reply_token, message)
