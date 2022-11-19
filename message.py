@@ -244,7 +244,7 @@ def buttons_message6():
     message = TemplateSendMessage(
         alt_text='報名簡章',
         template=ButtonsTemplate(
-            thumbnail_image_url="https://imgur.com/a/2E7K7HX",
+            thumbnail_image_url="https://i.imgur.com/1BCt2H8.png",
             title="🇹🇼🔥國軍公餘進修規定🔥🇹🇼",
             text="要怎麼公餘進修呢？",
             actions=[
