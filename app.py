@@ -230,6 +230,9 @@ def handle_message(event):
     elif '報名簡章'in msg:
         message = buttons_message5()
         line_bot_api.reply_message(event.reply_token, message)
+    elif '公餘進修'in msg:
+        message = buttons_message6()
+        line_bot_api.reply_message(event.reply_token, message)
     elif '色弱'in msg:     
         message = image_carousel_message3()
         line_bot_api.reply_message(event.reply_token, message) 

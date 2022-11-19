@@ -240,6 +240,27 @@ def buttons_message5():
     )
     return message
 
+def buttons_message6():
+    message = TemplateSendMessage(
+        alt_text='報名簡章',
+        template=ButtonsTemplate(
+            thumbnail_image_url="https://imgur.com/a/2E7K7HX",
+            title="🇹🇼🔥國軍公餘進修規定🔥🇹🇼",
+            text="要怎麼公餘進修呢？",
+            actions=[
+                URITemplateAction(
+                    label="國軍軍職人員公餘進修規定",
+                    uri='https://online.fliphtml5.com/stwml/sjtl/'
+                ),
+                URITemplateAction(
+                    label="國軍公餘進修補助學歷專長對照表",
+                    uri='https://online.fliphtml5.com/stwml/tnck/'
+                )
+            ]
+
+        )
+    )
+    return message
 
 
 #TemplateSendMessage - ConfirmTemplate(確認介面訊息)
