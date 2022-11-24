@@ -262,6 +262,24 @@ def buttons_message6():
     )
     return message
 
+def buttons_message7():
+    message = TemplateSendMessage(
+        alt_text='招募簽證題庫',
+        template=ButtonsTemplate(
+            thumbnail_image_url="https://i.imgur.com/1BCt2H8.png",
+            title="🇹🇼🔥112年招募簽證題庫🔥🇹🇼",
+            text="你也來考簽證阿？當公差嗎？",
+            actions=[
+                URITemplateAction(
+                    label="📖112年-招募簽證題庫📖",
+                    uri='https://online.fliphtml5.com/stwml/gsvk/'
+                )
+            ]
+
+        )
+    )
+    return message
+
 
 #TemplateSendMessage - ConfirmTemplate(確認介面訊息)
 def Confirm_Template():

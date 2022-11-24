@@ -239,6 +239,12 @@ def handle_message(event):
     elif '公餘進修'in msg:
         message = buttons_message6()
         line_bot_api.reply_message(event.reply_token, message)
+    elif '招募簽證'in msg:
+        message = buttons_message7()
+        line_bot_api.reply_message(event.reply_token, message)
+    elif '招募題庫'in msg:
+        message = buttons_message8()
+        line_bot_api.reply_message(event.reply_token, message)
     elif '色弱'in msg:     
         message = image_carousel_message3()
         line_bot_api.reply_message(event.reply_token, message) 
