@@ -266,9 +266,9 @@ def buttons_message7():
     message = TemplateSendMessage(
         alt_text='招募簽證題庫',
         template=ButtonsTemplate(
-            thumbnail_image_url="https://i.imgur.com/1BCt2H8.png",
+            thumbnail_image_url="https://i.imgur.com/Skp0CnY.png",
             title="🇹🇼🔥112年招募簽證題庫🔥🇹🇼",
-            text="你也來考簽證阿？當公差嗎？",
+            text="沒考過簽證還敢出來招募？哪個單位的？",
             actions=[
                 URITemplateAction(
                     label="📖112年-招募簽證題庫📖",

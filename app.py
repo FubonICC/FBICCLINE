@@ -243,7 +243,7 @@ def handle_message(event):
         message = buttons_message7()
         line_bot_api.reply_message(event.reply_token, message)
     elif '招募題庫'in msg:
-        message = buttons_message8()
+        message = buttons_message7()
         line_bot_api.reply_message(event.reply_token, message)
     elif '色弱'in msg:     
         message = image_carousel_message3()
