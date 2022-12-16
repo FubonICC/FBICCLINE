@@ -123,23 +123,23 @@ def buttons_message():
 #TemplateSendMessage - ButtonsTemplate (開場按鈕訊息)
 def buttons_message1():
     message = TemplateSendMessage(
-        alt_text='歡迎來到海軍招募讚',
+        alt_text='歡迎來到富邦大無疆C館',
         template=ButtonsTemplate(
             thumbnail_image_url="https://navy.mnd.gov.tw/Photo/Ban/202105051632_534790.jpg",
-            title="🇹🇼海軍招募讚服務選單🇹🇼",
+            title="🇹🇼富邦大無疆C館小管家🏠",
             text="請選擇你要的服務",
             actions=[
                 MessageTemplateAction(
-                    label="我要認識海軍",
-                    text="認識海軍"
+                    label="我想了解規約",
+                    text="規約"
                 ),
                 MessageTemplateAction(
-                    label="招募中心服務選單",
-                    text="中心服務"
+                    label="公設管理辦法",
+                    text="公設"
                 ),
                 URITemplateAction(
-                    label="填寫報名意願書",
-                    uri="https://forms.gle/8AEvmB8hhHxByfhg7"
+                    label="意見填寫",
+                    uri="https://forms.gle/zHanAfpayZUpZZCh8"
                 )
             ]
         )
