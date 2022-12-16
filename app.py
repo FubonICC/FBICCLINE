@@ -91,38 +91,7 @@ def handle_message(event):
     elif '功能列表' in msg:
         message = function_list()
         line_bot_api.reply_message(event.reply_token, message)
- #   elif '海軍左營軍港' in msg:
-        message = LocationSendMessage(
-            title="左營軍港",
-            address="左營海軍基地",
-            latitude="22.6931019",
-            longitude="120.2607194"
-         )
-        line_bot_api.reply_message(event.reply_token, message)
- #   elif '海軍蘇澳軍港' in msg:
-        message = LocationSendMessage(
-            title="蘇澳軍港",
-            address="中正軍港",
-            latitude="24.6018080",
-            longitude="121.8792230"
-         )
-        line_bot_api.reply_message(event.reply_token, message)
-#    elif '海軍基隆軍港' in msg:
-        message = LocationSendMessage(
-            title="基隆軍港",
-            address="威海營區",
-            latitude="25.1363810",
-            longitude="121.7471660"
-         )
-        line_bot_api.reply_message(event.reply_token, message)
-#    elif '海軍馬公軍港' in msg:
-        message = LocationSendMessage(
-            title="馬公基地",
-            address="馬公港",
-            latitude="23.5541179",
-            longitude="119.5635929"
-         )
-        line_bot_api.reply_message(event.reply_token, message)#
+ 
     elif '薪水' in msg:    
         message = TextSendMessage(text="★111年度國軍基本薪資結構★\n-----士兵-----\n二兵（1級）\n本俸加給：10130\n專業加給：15190\n志願加給：10000\n合計底薪：35320元\n \n一兵（1級）\n本俸加給：10910\n專業加給：16130\n志願加給：10000\n合計底薪：37040元\n  \n上兵（1級）\n本俸加給：11690\n專業加給：17080\n志願加給：10000\n合計底薪：38770元\n  \n-----士官-----\n下士（1級）\n本俸加給：12470\n專業加給：18980\n志願加給：10000\n合計底薪：41450元\n \n中士（1級）\n本俸加給：16210\n專業加給：19050\n志願加給：10000\n合計底薪：45260元\n \n上士（1級）\n本俸加給：19780\n專業加給：19110\n志願加給：10000\n合計底薪：48890元\n \n三等士官長（1級）\n本俸加給：21200\n專業加給：20260\n志願加給：10000\n合計底薪：51460元\n \n二等士官長（1級）\n本俸加給：23350\n專業加給：22280\n志願加給：10000\n合計底薪：55630元\n \n一等士官長（1級）\n本俸加給：26920\n專業加給：23270\n志願加給：10000\n合計底薪：60190元\n \n-----軍官-----\n少尉（1級）\n本俸加給：21200\n專業加給：19360\n志願加給：10000\n合計底薪：50560元\n \n中尉（1級）\n本俸加給：23350\n專業加給：20260\n志願加給：10000\n合計底薪：53610元\n \n上尉（1級）\n本俸加給：26920\n專業加給：22280\n志願加給：10000\n合計底薪：59200元\n \n\n少校（1級）\n本俸加給：30490\n專業加給：23270\n志願加給：10000\n合計底薪：63760元" )
         line_bot_api.reply_message(event.reply_token, message)   
@@ -143,13 +112,6 @@ def handle_message(event):
     elif '認識海軍'in msg:
         message = buttons_message2()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '海軍官網'in msg:
-        message = buttons_message3()
-        line_bot_api.reply_message(event.reply_token, message)
-    elif '海軍簡報'in msg:
-        message = buttons_message4()
-        line_bot_api.reply_message(event.reply_token, message)
-
     elif '112梯次'in msg:
         message = ImageSendMessage(original_content_url="https://i.imgur.com/wzszzFx.jpg", preview_image_url="https://i.imgur.com/wzszzFx.jpg")
         line_bot_api.reply_message(event.reply_token, message)        
