@@ -25,13 +25,13 @@ import threading
 import requests
 def wake_up_heroku():
     while 1==1:
-        url = ' https://fbiccapp.herokuapp.com/' + 'heroku_wake_up'
+        url = ' https://fbiccline-n133.onrender.com/' + 'heroku_wake_up'
         res = requests.get(url)
         if res.status_code==200:
             print('喚醒heroku成功')
         else:
             print('喚醒失敗')
-        time.sleep(28*60)
+        time.sleep(14*60)
 
 threading.Thread(target=wake_up_heroku).start()
 #======讓heroku不會睡著======
