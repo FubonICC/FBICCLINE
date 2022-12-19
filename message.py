@@ -82,13 +82,13 @@ def buttons_message1():
             title="🇹🇼富邦大無疆C館小管家🏠",
             text="請選擇你要的服務",
             actions=[
-                MessageTemplateAction(
+                URITemplateAction(
                     label="我想了解規約",
-                    text="規約"
+                    uri="https://online.fliphtml5.com/bbblu/rdib/"
                 ),
                 MessageTemplateAction(
                     label="公設管理辦法",
-                    text="公設"
+                    text="公設管理"
                 ),
                 URITemplateAction(
                     label="意見填寫",
@@ -259,13 +259,13 @@ def Confirm_Template():
 
 def Carousel_Template1():
     message = TemplateSendMessage(
-        alt_text='海軍艦隊',
+        alt_text='公設管理',
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
                     thumbnail_image_url='https://navy.mnd.gov.tw/Photo/PartnerHTML/201612151209_194894.jpg',
-                    title='海軍一二四艦隊',
-                    text='主力軍艦：康定級軍艦',
+                    title='健身房',
+                    text='健身房管理辦法',
                     actions=[
                         MessageAction(
                             label='區域：南部',
@@ -283,8 +283,8 @@ def Carousel_Template1():
                 ),
                 CarouselColumn(
                     thumbnail_image_url='https://upload.wikimedia.org/wikipedia/commons/8/8e/ROCN_Ta_Chiang.png',
-                    title='海軍一三一艦隊',
-                    text='主力軍艦：錦江級軍艦、沱江級軍艦、塔江級軍艦、光華六號飛彈快艇',
+                    title='游泳池',
+                    text='游泳池管理辦法',
                     actions=[
                         MessageAction(
                             label='區域：北部',
@@ -302,8 +302,8 @@ def Carousel_Template1():
                 ),
                 CarouselColumn(
                     thumbnail_image_url='https://cdn2.ettoday.net/images/326/d326819.jpg',
-                    title='海軍一四六艦隊',
-                    text='主力軍艦：成功級軍艦',
+                    title='琴房',
+                    text='琴房管理辦法',
                     actions=[
                         MessageAction(
                             label='區域：離島',
@@ -321,8 +321,8 @@ def Carousel_Template1():
                 ),
                 CarouselColumn(
                     thumbnail_image_url='https://imgcdn.cna.com.tw/www/WebPhotos/1024/20210413/1171x768_47493734004.jpg',
-                    title='海軍一五一艦隊',
-                    text='主力軍艦：兩棲登陸艦艇、油彈補給艦',
+                    title='閱覽室',
+                    text='閱覽室管理辦法',
                     actions=[
                         MessageAction(
                             label='區域：南部',
@@ -340,8 +340,8 @@ def Carousel_Template1():
                 ),
                 CarouselColumn(
                     thumbnail_image_url='https://tnimage.s3.hicloud.net.tw/photos/shares/jimi0611/20130927/5781627.jpg',
-                    title='海軍一六八艦隊',
-                    text='主力軍艦：紀德級驅逐艦、濟陽級巡防艦',
+                    title='戶外吸菸區',
+                    text='本社區設有戶外吸菸區兩處',
                     actions=[
                         MessageAction(
                             label='區域：南部',
@@ -359,8 +359,8 @@ def Carousel_Template1():
                 ),
                 CarouselColumn(
                     thumbnail_image_url='https://s.yimg.com/ny/api/res/1.2/rsY778kfLW8GSWKkcnJK3Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://s.yimg.com/uu/api/res/1.2/m2So_wC8mFV5Q0JeyUSTNQ--~B/aD00NTA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/cna.com.tw/633e3f9666bc2096512d8c51cccb6e31',
-                    title='海軍一九二艦隊',
-                    text='主力軍艦：快速布雷艇、掃/獵雷艦、海洋測量艦、救難艦、遠洋拖船、水下作業大隊',
+                    title='多功能退縮空間',
+                    text='I油箱、統一販賣機、黑松販賣機',
                     actions=[
                         MessageAction(
                             label='區域：南部',
@@ -373,25 +373,6 @@ def Carousel_Template1():
                         URITemplateAction(
                             label='隊徽&組織沿革',
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30052'
-                        )
-                    ]
-                ),
-                CarouselColumn(
-                    thumbnail_image_url='https://cdn2.ettoday.net/images/3418/d3418257.jpg',
-                    title='海軍二五六戰隊',
-                    text='主力軍艦：茄比級潛艦、劍龍級潛艦',
-                    actions=[
-                        MessageAction(
-                            label='區域：南部',
-                            text='南部地區'
-                        ),
-                        MessageAction(
-                            label='詳細說明',
-                            text='%256'
-                        ),
-                        URITemplateAction(
-                            label='隊徽&組織沿革',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30053'
                         )
                     ]
                 ),
