@@ -42,53 +42,6 @@ def imagemap_message():
     )
     return message
 
-#ImagemapSendMessage(組圖訊息)
-def imagemap_message01():
-    message = ImagemapSendMessage(
-        base_url="https://i.imgur.com/BfTFVDN.jpg",
-        alt_text='最新的合作廠商有誰呢？',
-        base_size=BaseSize(height=2000, width=2000),
-        actions=[
-            URIImagemapAction(
-                #家樂福
-                link_uri="https://tw.shop.com/search/%E5%AE%B6%E6%A8%82%E7%A6%8F",
-                area=ImagemapArea(
-                    x=0, y=0, width=1000, height=1000
-                )
-            ),
-            URIImagemapAction(
-                #生活市集
-                link_uri="https://tw.shop.com/search/%E7%94%9F%E6%B4%BB%E5%B8%82%E9%9B%86",
-                area=ImagemapArea(
-                    x=1000, y=0, width=1000, height=1000
-                )
-            ),
-            URIImagemapAction(
-                #阿瘦皮鞋
-                link_uri="https://tw.shop.com/search/%E9%98%BF%E7%98%A6%E7%9A%AE%E9%9E%8B",
-                area=ImagemapArea(
-                    x=0, y=1000, width=1000, height=1000
-                )
-            ),
-            URIImagemapAction(
-                #塔吉特千層蛋糕
-                link_uri="https://tw.shop.com/search/%E5%A1%94%E5%90%89%E7%89%B9",
-                area=ImagemapArea(
-                    x=1000, y=1000, width=1000, height=500
-                )
-            ),
-            URIImagemapAction(
-                #亞尼克生乳捲
-                link_uri="https://tw.shop.com/search/%E4%BA%9E%E5%B0%BC%E5%85%8B",
-                area=ImagemapArea(
-                    x=1000, y=1500, width=1000, height=500
-                )
-            )
-        ]
-    )
-    return message
-
-
 #TemplateSendMessage - ButtonsTemplate (按鈕介面訊息)
 def buttons_message():
     message = TemplateSendMessage(
@@ -125,7 +78,7 @@ def buttons_message1():
     message = TemplateSendMessage(
         alt_text='歡迎來到富邦大無疆C館',
         template=ButtonsTemplate(
-            thumbnail_image_url="https://navy.mnd.gov.tw/Photo/Ban/202105051632_534790.jpg",
+            thumbnail_image_url="https://upload.cc/i1/2022/12/19/afREkl.jpg",
             title="🇹🇼富邦大無疆C館小管家🏠",
             text="請選擇你要的服務",
             actions=[
@@ -148,7 +101,7 @@ def buttons_message1():
 
 def buttons_message2():
     message = TemplateSendMessage(
-        alt_text='歡迎來到海軍招募讚',
+        alt_text='生活公約',
         template=ButtonsTemplate(
             thumbnail_image_url="https://navy.mnd.gov.tw/Photo/Ban/202105051632_534790.jpg",
             title="🇹🇼中華民國海軍單位介紹🇹🇼",
