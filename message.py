@@ -263,7 +263,7 @@ def Carousel_Template1():
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://navy.mnd.gov.tw/Photo/PartnerHTML/201612151209_194894.jpg',
+                    thumbnail_image_url='https://upload.cc/i1/2022/12/20/S6tBiL.jpg',
                     title='健身房',
                     text='健身房管理辦法',
                     actions=[
@@ -282,7 +282,7 @@ def Carousel_Template1():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://upload.wikimedia.org/wikipedia/commons/8/8e/ROCN_Ta_Chiang.png',
+                    thumbnail_image_url='https://upload.cc/i1/2022/12/20/Y9pfIa.jpg',
                     title='游泳池',
                     text='游泳池管理辦法',
                     actions=[
@@ -301,7 +301,26 @@ def Carousel_Template1():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://cdn2.ettoday.net/images/326/d326819.jpg',
+                    thumbnail_image_url='https://upload.cc/i1/2022/12/20/oLcdpa.jpg',
+                    title='瑜珈教室',
+                    text='琴房管理辦法',
+                    actions=[
+                        MessageAction(
+                            label='區域：離島',
+                            text='離島地區'
+                        ),
+                        MessageAction(
+                            label='詳細說明',
+                            text='%146'
+                        ),
+                        URITemplateAction(
+                            label='隊徽&組織沿革',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30047'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://upload.cc/i1/2022/12/20/58DVke.jpg',
                     title='琴房',
                     text='琴房管理辦法',
                     actions=[
@@ -320,7 +339,7 @@ def Carousel_Template1():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://imgcdn.cna.com.tw/www/WebPhotos/1024/20210413/1171x768_47493734004.jpg',
+                    thumbnail_image_url='https://upload.cc/i1/2022/12/20/ln5wyZ.jpg',
                     title='閱覽室',
                     text='閱覽室管理辦法',
                     actions=[
@@ -339,13 +358,13 @@ def Carousel_Template1():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://tnimage.s3.hicloud.net.tw/photos/shares/jimi0611/20130927/5781627.jpg',
+                    thumbnail_image_url='https://upload.cc/i1/2022/12/20/ra0jHi.jpg',
                     title='戶外吸菸區',
                     text='本社區設有戶外吸菸區兩處',
                     actions=[
                         MessageAction(
-                            label='區域：南部',
-                            text='南部地區'
+                            label='戶外吸菸區',
+                            text='戶外吸菸區'
                         ),
                         MessageAction(
                             label='詳細說明',
@@ -358,21 +377,40 @@ def Carousel_Template1():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://s.yimg.com/ny/api/res/1.2/rsY778kfLW8GSWKkcnJK3Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://s.yimg.com/uu/api/res/1.2/m2So_wC8mFV5Q0JeyUSTNQ--~B/aD00NTA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/cna.com.tw/633e3f9666bc2096512d8c51cccb6e31',
+                    thumbnail_image_url='https://upload.cc/i1/2022/12/20/UBOTGd.jpg',
                     title='多功能退縮空間',
-                    text='I油箱、統一販賣機、黑松販賣機',
+                    text='中華郵政I郵箱、統一販賣機、黑松販賣機、舊衣回收箱',
                     actions=[
                         MessageAction(
                             label='區域：南部',
                             text='南部地區'
                         ),
                         MessageAction(
-                            label='詳細說明',
-                            text='%192'
+                            label='I郵箱簡易說明',
+                            text='I郵箱'
                         ),
                         URITemplateAction(
-                            label='隊徽&組織沿革',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30052'
+                            label='中華郵政I郵箱官方網站',
+                            uri='https://ezpost.post.gov.tw/ibox/tariff.aspx#box26'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://upload.cc/i1/2022/12/20/fydqTN.jpg',
+                    title='寵物洗滌區',
+                    text='提供住戶清洗寵戶好夥伴的地方',
+                    actions=[
+                        MessageAction(
+                            label='位置： H棟後方中庭區域',
+                            text='寵物洗滌區'
+                        ),
+                        MessageAction(
+                            label='使用說明',
+                            text='寵物洗滌區使用說明'
+                        ),
+                        URITemplateAction(
+                            label='中華郵政I郵箱官方網站',
+                            uri='https://ezpost.post.gov.tw/ibox/tariff.aspx#box26'
                         )
                     ]
                 ),

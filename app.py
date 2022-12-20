@@ -91,7 +91,25 @@ def handle_message(event):
     elif '功能列表' in msg:
         message = function_list()
         line_bot_api.reply_message(event.reply_token, message)
- 
+    elif 'I郵箱' in msg:  
+        message =[ 
+            TextSendMessage(
+                text="I郵箱簡易操作影片", 
+            ),
+            VideoSendMessage(
+                original_content_url='https://dai.ly/k4hfzDg5j8BDWnyBL42', 
+                preview_image_url='https://upload.cc/i1/2022/12/20/5Y3GqJ.jpg'
+            ),
+            VideoSendMessage(
+                original_content_url='https://dai.ly/k28wNgeDJbxtoGyBL3S', 
+                preview_image_url='https://upload.cc/i1/2022/12/20/lEwKBU.jpg'
+            ),
+            VideoSendMessage(
+                original_content_url='https://dai.ly/k4Qtx7reGQQIj1yBL4e', 
+                preview_image_url='https://upload.cc/i1/2022/12/20/J4ZnHm.jpg'
+            )
+        ]
+        line_bot_api.reply_message(event.reply_token, message)    
           
     #艦隊簡介    
     elif '%124' in msg:  
@@ -110,9 +128,9 @@ def handle_message(event):
     elif '小編'in msg:
         message = ImageSendMessage(original_content_url="https://i.imgur.com/evPGRYz.jpg", preview_image_url="https://i.imgur.com/evPGRYz.jpg")
         line_bot_api.reply_message(event.reply_token, message)
-    else:
-        message = buttons_message1()
-        line_bot_api.reply_message(event.reply_token, message)
+#  else:
+#  #      message = buttons_message1()
+ #       line_bot_api.reply_message(event.reply_token, message)
 
 
 @handler.add(PostbackEvent)
