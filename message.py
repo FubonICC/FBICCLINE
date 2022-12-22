@@ -345,6 +345,14 @@ def Carousel_Template2():
                         URITemplateAction(
                             label='詳細內容',
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
+                        ),
+                        PostbackTemplateAction(
+                            label='',
+                            data='N'
+                        ),
+                        PostbackTemplateAction(
+                            label='',
+                            data='N'                            
                         )
                     ]
                 ),
@@ -356,6 +364,14 @@ def Carousel_Template2():
                         URITemplateAction(
                             label='詳細內容',
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
+                        ),
+                        PostbackTemplateAction(
+                            label='',
+                            data='N'
+                        ),
+                        PostbackTemplateAction(
+                            label='',
+                            data='N'                            
                         )
                     ]
                 ),
@@ -371,6 +387,10 @@ def Carousel_Template2():
                         URITemplateAction(
                             label='申請書下載',
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
+                        ),
+                        PostbackTemplateAction(
+                            label='',
+                            data='N'
                         )
                     ]
                 ),
@@ -386,28 +406,13 @@ def Carousel_Template2():
                         URITemplateAction(
                             label='磁卡及車道遙控器申請辦法',
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
+                        ),
+                        PostbackTemplateAction(
+                            label='',
+                            data='N'
                         )
                     ]
                 ),
-#                CarouselColumn(
-#                    thumbnail_image_url='https://i.imgur.com/4DMQoX8.jpg',
-#                    title='防空警衛群',
-#                    text='鐵衛：負責海軍重要軍事設施、港口及要塞守衛任務，誓死守衛。',
-#                    actions=[
-#                        PostbackTemplateAction(
-#                            label='區域：北、中、南部、離島',
-#                            data='將這個訊息偷偷回傳給機器人'
-#                        ),
-#                         MessageAction(
-#                            label='詳細說明',
-#                            text='%防警'
-#                        ),    
-#                        URITemplateAction(
-#                            label='了解防空警衛群',
-#                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30331'
-#                        )
-#                    ]
-#               ),
                 CarouselColumn(
                     thumbnail_image_url='https://i.imgur.com/4OpUD9p.jpg',
                     title='廣告招商',
@@ -416,6 +421,14 @@ def Carousel_Template2():
                         URITemplateAction(
                             label='電梯公佈欄招商資訊',
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30331'
+                        ),
+                        PostbackTemplateAction(
+                            label='',
+                            data='N'
+                        ),
+                        PostbackTemplateAction(
+                            label='',
+                            data='N'
                         )
                     ]
                 )
