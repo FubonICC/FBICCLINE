@@ -101,146 +101,59 @@ def buttons_message1():
 
 def buttons_message2():
     message = TemplateSendMessage(
-        alt_text='生活公約',
+        alt_text='管理委員會',
         template=ButtonsTemplate(
             thumbnail_image_url="https://navy.mnd.gov.tw/Photo/Ban/202105051632_534790.jpg",
-            title="🇹🇼中華民國海軍單位介紹🇹🇼",
-            text="請選擇你想了解的單位類型",
+            title="🇹🇼管理委員會🇹🇼",
+            text="富邦大無疆C館管理委員會",
             actions=[
                 MessageTemplateAction(
-                    label="海軍艦隊",
-                    text="海軍艦隊"
+                    label="現任管理委員會成員",
+                    text="管委會"
                 ),
-                MessageTemplateAction(
-                    label="海軍陸岸作戰單位",
-                    text="陸岸作戰"
-                ),
-                MessageTemplateAction(
-                    label="海軍陸岸一般單位",
-                    text="陸岸一般"
-                ),
-                MessageTemplateAction(
-                    label="海軍陸戰隊單位",
-                    text="海軍陸戰隊"
+                URITemplateAction(
+                    label="歷任管委會",
+                    uri="https://online.fliphtml5.com/bbblu/rdib/"
                 )
             ]
         )
     )
     return message
 
-def buttons_message3():
-    message = TemplateSendMessage(
-        alt_text='海軍官網',
-        template=ButtonsTemplate(
-            thumbnail_image_url="https://i.imgur.com/l6tGJCx.png",
-            title="🇹🇼中華民國海軍官方網站🇹🇼",
-            text="還用問嗎？通通加就對了！",
-            actions=[
-                URITemplateAction(
-                    label="海軍官方網站",
-                    uri='https://navy.mnd.gov.tw/index.aspx'
-                ),
-                URITemplateAction(
-                    label="海軍Facebook",
-                    uri='https://www.facebook.com/ROCNAVY.tw'
-                ),
-                URITemplateAction(
-                    label="海軍Instagram",
-                    uri='https://www.instagram.com/r.o.c.navy/'
-                )
-            ]
-        )
-    )
-    return message
+#def buttons_message3():
+#    message = TemplateSendMessage(
+#        alt_text='海軍官網',
+#        template=ButtonsTemplate(
+#            thumbnail_image_url="https://i.imgur.com/l6tGJCx.png",
+#            title="🇹🇼中華民國海軍官方網站🇹🇼",
+#            text="還用問嗎？通通加就對了！",
+#            actions=[
+#                URITemplateAction(
+#                    label="海軍官方網站",
+#                    uri='https://navy.mnd.gov.tw/index.aspx'
+#                ),
+#                URITemplateAction(
+#                    label="海軍Facebook",
+#                    uri='https://www.facebook.com/ROCNAVY.tw'
+#                ),
+#                URITemplateAction(
+#                    label="海軍Instagram",
+#                    uri='https://www.instagram.com/r.o.c.navy/'
+#                )
+#            ]
+#        )
+#    )
+#    return message
 
-def buttons_message4():
-    message = TemplateSendMessage(
-        alt_text='海軍各式簡報',
-        template=ButtonsTemplate(
-            thumbnail_image_url="https://i.imgur.com/9su5voz.png",
-            title="🇹🇼海軍招募簡報🇹🇼",
-            text="點選簡報了解海軍！",
-            actions=[
-                URITemplateAction(
-                    label="海軍軍種單位簡介-長版",
-                    uri='https://docs.google.com/presentation/d/e/2PACX-1vRIgz341LJvPmyaf3qXDFm0B1y-UJiywmoNAb_bLMgjCM7DF4RVb45eqwne50LRhP3lWvzoEFO3LFsC/pub?start=true&loop=false&delayms=3000'
-                )
-            ]
-
-        )
-    )
-    return message
-
-def buttons_message5():
-    message = TemplateSendMessage(
-        alt_text='報名簡章',
-        template=ButtonsTemplate(
-            thumbnail_image_url="https://i.imgur.com/EemqasG.jpg",
-            title="🇹🇼🔥112年報名簡章🔥🇹🇼",
-            text="點選簡章內容了解最新資訊！",
-            actions=[
-                URITemplateAction(
-                    label="志願役士兵簡章",
-                    uri='https://online.fliphtml5.com/stwml/hifc/'
-                ),
-                URITemplateAction(
-                    label="專業預備軍官預備士官班簡章",
-                    uri='https://online.fliphtml5.com/stwml/bgak/'
-                )
-            ]
-
-        )
-    )
-    return message
-
-def buttons_message6():
-    message = TemplateSendMessage(
-        alt_text='公餘進修規定',
-        template=ButtonsTemplate(
-            thumbnail_image_url="https://i.imgur.com/1BCt2H8.png",
-            title="🇹🇼🔥國軍公餘進修規定🔥🇹🇼",
-            text="要怎麼公餘進修呢？",
-            actions=[
-                URITemplateAction(
-                    label="國軍軍職人員公餘進修規定",
-                    uri='https://online.fliphtml5.com/stwml/sjtl/'
-                ),
-                URITemplateAction(
-                    label="國軍公餘進修補助學歷專長對照表",
-                    uri='https://online.fliphtml5.com/stwml/tnck/'
-                )
-            ]
-
-        )
-    )
-    return message
-
-def buttons_message7():
-    message = TemplateSendMessage(
-        alt_text='招募簽證題庫',
-        template=ButtonsTemplate(
-            thumbnail_image_url="https://i.imgur.com/Skp0CnY.png",
-            title="🇹🇼🔥112年招募簽證題庫🔥🇹🇼",
-            text="沒考過簽證還敢出來招募？哪個單位的？",
-            actions=[
-                URITemplateAction(
-                    label="📖112年-招募簽證題庫📖",
-                    uri='https://online.fliphtml5.com/stwml/gsvk/'
-                )
-            ]
-
-        )
-    )
-    return message
 
 
 #TemplateSendMessage - ConfirmTemplate(確認介面訊息)
 def Confirm_Template():
 
     message = TemplateSendMessage(
-        alt_text='你要找海軍招募員兼程式小編嗎？',
+        alt_text='你要找富邦小管家程式小編嗎？',
         template=ConfirmTemplate(
-            text="你要找海軍最帥招募員兼小編嗎？",
+            text="你要找小管家的程式小編兼副主委嗎？",
             actions=[
                 MessageTemplateAction(
                     label="是的，他是誰？",
@@ -421,161 +334,91 @@ def Carousel_Template1():
 
 def Carousel_Template2():
     message = TemplateSendMessage(
-        alt_text='海軍陸戰隊',
+        alt_text='生活公約',
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
                     thumbnail_image_url='https://i.imgur.com/dA6kJYp.jpg',
-                    title='陸戰九九旅',
-                    text='鐵軍：鋼鐵勁旅，防衛固守，有如銅牆鐵壁之堅強勁旅',
-                    actions=[
-                        PostbackTemplateAction(
-                            label='區域：南部',
-                            data='將這個訊息偷偷回傳給機器人'
-                        ),
-                         MessageAction(
-                            label='詳細說明',
-                            text='%99'
-                        ),    
+                    title='社區管理辦法',
+                    text='富邦大無疆C館管理辦法',
+                    actions=[   
                         URITemplateAction(
-                            label='了解陸戰九九旅',
+                            label='詳細內容',
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
                         )
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://i.imgur.com/wiqdqSx.jpg',
-                    title='陸戰六六旅',
-                    text='先鋒：為陸戰隊先鋒，身先士卒，勇猛向前。',
-                    actions=[
-                        PostbackTemplateAction(
-                            label='區域：北部',
-                            data='將這個訊息偷偷回傳給機器人'
-                        ),
-                         MessageAction(
-                            label='詳細說明',
-                            text='%66'
-                        ),    
+                    thumbnail_image_url='https://i.imgur.com/dA6kJYp.jpg',
+                    title='社區生活公約',
+                    text='富邦大無疆C館生活公約',
+                    actions=[   
                         URITemplateAction(
-                            label='了解陸戰六六旅',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30328'
+                            label='詳細內容',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
                         )
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://i.imgur.com/9LzPg0M.jpg',
-                    title='登陸戰車大隊',
-                    text='使命必達，送你抵達全世界每一個海灘',
-                    actions=[
-                        PostbackTemplateAction(
-                            label='區域：南部',
-                            data='將這個訊息偷偷回傳給機器人'
-                        ),
-                         MessageAction(
-                            label='詳細說明',
-                            text='%登車'
-                        ),    
+                    thumbnail_image_url='https://i.imgur.com/dA6kJYp.jpg',
+                    title='自行車停車位管理辦法',
+                    text='自行車停車位管理辦法%申請書',
+                    actions=[   
                         URITemplateAction(
-                            label='了解登陸戰車大隊',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30334'
+                            label='管理辦法',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
+                        ),
+                        URITemplateAction(
+                            label='申請書下載',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
                         )
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://i.imgur.com/cjRe6MQ.jpg',
-                    title='戰鬥支援大隊',
-                    text='支援作戰，捨我其誰',
-                    actions=[
-                        PostbackTemplateAction(
-                            label='區域：南部',
-                            data='將這個訊息偷偷回傳給機器人'
-                        ),
-                         MessageAction(
-                            label='詳細說明',
-                            text='%戰支'
-                        ),    
+                    thumbnail_image_url='https://i.imgur.com/dA6kJYp.jpg',
+                    title='門禁管制辦法',
+                    text='富邦大無疆C館生活公約',
+                    actions=[   
                         URITemplateAction(
-                            label='了解戰鬥支援大隊',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30335'
+                            label='門禁管制辦法',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
+                        ),
+                        URITemplateAction(
+                            label='磁卡及車道遙控器申請辦法',
+                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
                         )
                     ]
                 ),
-                CarouselColumn(
-                    thumbnail_image_url='https://i.imgur.com/1yjNlX4.jpg',
-                    title='烏坵守備大隊',
-                    text='同島一心，永保烏坵',
-                    actions=[
-                        PostbackTemplateAction(
-                            label='區域：外島',
-                            data='將這個訊息偷偷回傳給機器人'
-                        ),
-                         MessageAction(
-                            label='詳細說明',
-                            text='%烏坵'
-                        ),    
-                        URITemplateAction(
-                            label='了解烏坵守備大隊',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30332'
-                        )
-                    ]
-                ),
-                CarouselColumn(
-                    thumbnail_image_url='https://media.nownews.com/nn_media/thumbnail/2021/01/1610253640473-95998eaff73245f1b416d187e5e47798-800x533.jpg?unShow=false',
-                    title='兩棲偵搜大隊',
-                    text='特種作戰，臨陣當先',
-                    actions=[
-                        PostbackTemplateAction(
-                            label='區域：南部',
-                            data='將這個訊息偷偷回傳給機器人'
-                        ),
-                         MessageAction(
-                            label='詳細說明',
-                            text='%兩棲偵搜'
-                        ),    
-                        URITemplateAction(
-                            label='了解兩棲偵搜大隊',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30333'
-                        )
-                    ]
-                ),
-                CarouselColumn(
-                    thumbnail_image_url='https://i.imgur.com/4DMQoX8.jpg',
-                    title='防空警衛群',
-                    text='鐵衛：負責海軍重要軍事設施、港口及要塞守衛任務，誓死守衛。',
-                    actions=[
-                        PostbackTemplateAction(
-                            label='區域：北、中、南部、離島',
-                            data='將這個訊息偷偷回傳給機器人'
-                        ),
-                         MessageAction(
-                            label='詳細說明',
-                            text='%防警'
-                        ),    
-                        URITemplateAction(
-                            label='了解防空警衛群',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30331'
-                        )
-                    ]
-                ),
+#                CarouselColumn(
+#                    thumbnail_image_url='https://i.imgur.com/4DMQoX8.jpg',
+#                    title='防空警衛群',
+#                    text='鐵衛：負責海軍重要軍事設施、港口及要塞守衛任務，誓死守衛。',
+#                    actions=[
+#                        PostbackTemplateAction(
+#                            label='區域：北、中、南部、離島',
+#                            data='將這個訊息偷偷回傳給機器人'
+#                        ),
+#                         MessageAction(
+#                            label='詳細說明',
+#                            text='%防警'
+#                        ),    
+#                        URITemplateAction(
+#                            label='了解防空警衛群',
+#                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30331'
+#                        )
+#                    ]
+#               ),
                 CarouselColumn(
                     thumbnail_image_url='https://i.imgur.com/4OpUD9p.jpg',
-                    title='三軍聯訓基地',
-                    text='聯勇：負責國軍三軍聯合作戰演訓及實彈操演之任務，代名為聯勇。',
-                    actions=[
-                        PostbackTemplateAction(
-                            label='區域：南部',
-                            data='將這個訊息偷偷回傳給機器人'
-                        ),
-                         MessageAction(
-                            label='詳細說明',
-                            text='%三軍基地'
-                        ),    
+                    title='廣告招商',
+                    text='社區廣告招商資訊',
+                    actions=[  
                         URITemplateAction(
-                            label='了解三軍聯訓基地',
+                            label='電梯公佈欄招商資訊',
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30331'
                         )
                     ]
-                ),
+                )
             ]
         )
     )
@@ -583,16 +426,16 @@ def Carousel_Template2():
 
 def Carousel_Template3():
     message = TemplateSendMessage(
-        alt_text='海軍陸岸作戰單位',
+        alt_text='第二屆管理委員會成員列表',
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
                     thumbnail_image_url='https://upload.wikimedia.org/wikipedia/commons/7/71/UAV_9717_Display_at_No.11_Pier_Left_Rear_View_20130504.jpg',
-                    title='海軍海上戰術偵搜大隊',
-                    text='銳鳶無人機',
+                    title='郭晉叡',
+                    text='主任委員-郭晉叡',
                     actions=[
                         PostbackTemplateAction(
-                            label='區域：南部',
+                            label='ˇ棟別-H',
                             data='A'
                         ),
                          MessageAction(
@@ -607,11 +450,11 @@ def Carousel_Template3():
                 ),
                 CarouselColumn(
                     thumbnail_image_url='https://navy.mnd.gov.tw/Photo/OtherHTML/201610261134_976298.jpg',
-                    title='海軍反潛航空大隊',
-                    text='S-70C反潛直升機、500MD反潛直昇機',
+                    title='邱偉倫',
+                    text='副主任委員-邱偉倫',
                     actions=[
                         PostbackTemplateAction(
-                            label='區域：南部',
+                            label='棟別-F',
                             data='這是ID=2'
                         ),
                         MessageAction(

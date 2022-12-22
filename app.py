@@ -70,16 +70,19 @@ def handle_message(event):
     elif '我要報名' in msg:
         message = buttons_message()
         line_bot_api.reply_message(event.reply_token, message)
+    elif '管委會' in msg:
+        message = buttons_message2()
+        line_bot_api.reply_message(event.reply_token, message)
     elif '招募員' in msg:
         message = Confirm_Template()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '海軍艦隊' in msg:
+    elif '公設管理' in msg:
         message = Carousel_Template1()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '海軍陸戰隊' in msg:
+    elif '生活公約' in msg:
         message = Carousel_Template2()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '陸岸作戰' in msg:
+    elif '管委會成員' in msg:
         message = Carousel_Template3()
         line_bot_api.reply_message(event.reply_token, message)
     elif '陸岸一般' in msg:
@@ -112,19 +115,16 @@ def handle_message(event):
         line_bot_api.reply_message(event.reply_token, message)    
           
     #艦隊簡介    
-    elif '%124' in msg:  
-        message = TextSendMessage(text="⚓ 海軍一二四艦隊 ⚓\n區域：南部地區\n主力軍艦：\n🇹🇼康定級飛彈巡防艦🇹🇼\n依海軍「光華2號計畫」，由法國海軍造艦局承造，原型為法國海軍拉法葉級巡防艦，為中華民國海軍的一級艦，主要執行台灣海峽周遭防空、反潛、護航、反封鎖及聯合水面截擊作戰。85年5月第一艘「康定艦」返國。該型艦滿載排水量為3,680噸，以四部柴油主機推動，最高航速25節。\n📃命名方式📃\n康定級巡防艦以中華民國西康省省會康定市命名，之後艦艇的命名均以中華民國各省會來命名。\n-⚓同級艦(舷號)⚓-\n康定軍艦(PFG-1202)\n西寧軍艦(PFG-1203)\n昆明軍艦(PFG-1205)\n迪化軍艦(PFG-1206)\n武昌軍艦(PFG-1207)\n承德軍艦(PFG-1208)\n💰薪資待遇💰\n戰鬥加給：5000元\n海勤加給(士兵)：4000元\n海勤加給(士官)：17500元\n💎各階待遇💎\n士兵起薪：44320元\n士官起薪：63950元\n軍官起薪：73060元" )
-        line_bot_api.reply_message(event.reply_token, message)   
+#    elif '%124' in msg:  
+#        message = TextSendMessage(text="⚓ 海軍一二四艦隊 ⚓\n區域：南部地區\n主力軍艦：\n🇹🇼康定級飛彈巡防艦🇹🇼\n依海軍「光華2號計畫」，由法國海軍造艦局承造，原型為法國海軍拉法葉級巡防艦，為中華民國海軍的一級艦，主要執行台灣海峽周遭防空、反潛、護航、反封鎖及聯合水面截擊作戰。85年5月第一艘「康定艦」返國。該型艦滿載排水量為3,680噸，以四部柴油主機推動，最高航速25節。\n📃命名方式📃\n康定級巡防艦以中華民國西康省省會康定市命名，之後艦艇的命名均以中華民國各省會來命名。\n-⚓同級艦(舷號)⚓-\n康定軍艦(PFG-1202)\n西寧軍艦(PFG-1203)\n昆明軍艦(PFG-1205)\n迪化軍艦(PFG-1206)\n武昌軍艦(PFG-1207)\n承德軍艦(PFG-1208)\n💰薪資待遇💰\n戰鬥加給：5000元\n海勤加給(士兵)：4000元\n海勤加給(士官)：17500元\n💎各階待遇💎\n士兵起薪：44320元\n士官起薪：63950元\n軍官起薪：73060元" )
+#        line_bot_api.reply_message(event.reply_token, message)   
     #其他功能    
-    elif '海軍小百科預告'in msg:
-        message = VideoSendMessage(original_content_url='https://i.imgur.com/ds1LiqC.mp4', preview_image_url='https://i.imgur.com/upYB4x9.jpg')
-        line_bot_api.reply_message(event.reply_token, message)
+#    elif '海軍小百科預告'in msg:
+#        message = VideoSendMessage(original_content_url='https://i.imgur.com/ds1LiqC.mp4', preview_image_url='https://i.imgur.com/upYB4x9.jpg')
+#        line_bot_api.reply_message(event.reply_token, message)
 #    elif '認識海軍'in msg:
 #        message = buttons_message2()
-#       line_bot_api.reply_message(event.reply_token, message)
-    elif '112梯次'in msg:
-        message = ImageSendMessage(original_content_url="https://i.imgur.com/wzszzFx.jpg", preview_image_url="https://i.imgur.com/wzszzFx.jpg")
-        line_bot_api.reply_message(event.reply_token, message)        
+#       line_bot_api.reply_message(event.reply_token, message)    
     elif '小編'in msg:
         message = ImageSendMessage(original_content_url="https://i.imgur.com/evPGRYz.jpg", preview_image_url="https://i.imgur.com/evPGRYz.jpg")
         line_bot_api.reply_message(event.reply_token, message)
