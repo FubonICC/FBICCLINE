@@ -348,11 +348,11 @@ def Carousel_Template2():
                         ),
                         PostbackTemplateAction(
                             label='\s',
-                            data='N'
+                            data='A'
                         ),
                         PostbackTemplateAction(
                             label='\s',
-                            data='N'                            
+                            data='A'                            
                         )
                     ]
                 ),
@@ -367,11 +367,11 @@ def Carousel_Template2():
                         ),
                         PostbackTemplateAction(
                             label='\s',
-                            data='N'
+                            data='A'
                         ),
                         PostbackTemplateAction(
                             label='\s',
-                            data='N'                            
+                            data='A'                            
                         )
                     ]
                 ),
@@ -390,7 +390,7 @@ def Carousel_Template2():
                         ),
                         PostbackTemplateAction(
                             label='\s',
-                            data='N'
+                            data='A'
                         )
                     ]
                 ),
@@ -409,7 +409,7 @@ def Carousel_Template2():
                         ),
                         PostbackTemplateAction(
                             label='\s',
-                            data='N'
+                            data='A'
                         )
                     ]
                 ),
@@ -424,11 +424,11 @@ def Carousel_Template2():
                         ),
                         PostbackTemplateAction(
                             label='\s',
-                            data='N'
+                            data='A'
                         ),
                         PostbackTemplateAction(
                             label='\s',
-                            data='N'
+                            data='A'
                         )
                     ]
                 )
