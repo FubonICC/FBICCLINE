@@ -70,7 +70,7 @@ def handle_message(event):
     elif '我要報名' in msg:
         message = buttons_message()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '管委會' in msg:
+    elif '管理委員會' in msg:
         message = buttons_message2()
         line_bot_api.reply_message(event.reply_token, message)
     elif '招募員' in msg:

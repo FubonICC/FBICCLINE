@@ -109,7 +109,7 @@ def buttons_message2():
             actions=[
                 MessageTemplateAction(
                     label="現任管理委員會成員",
-                    text="管委會"
+                    text="管委會成員"
                 ),
                 URITemplateAction(
                     label="歷任管委會",
