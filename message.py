@@ -347,11 +347,11 @@ def Carousel_Template2():
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
                         ),
                         PostbackTemplateAction(
-                            label='',
+                            label='\s',
                             data='N'
                         ),
                         PostbackTemplateAction(
-                            label='',
+                            label='\s',
                             data='N'                            
                         )
                     ]
@@ -366,11 +366,11 @@ def Carousel_Template2():
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
                         ),
                         PostbackTemplateAction(
-                            label='',
+                            label='\s',
                             data='N'
                         ),
                         PostbackTemplateAction(
-                            label='',
+                            label='\s',
                             data='N'                            
                         )
                     ]
@@ -389,7 +389,7 @@ def Carousel_Template2():
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
                         ),
                         PostbackTemplateAction(
-                            label='',
+                            label='\s',
                             data='N'
                         )
                     ]
@@ -408,7 +408,7 @@ def Carousel_Template2():
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30329'
                         ),
                         PostbackTemplateAction(
-                            label='',
+                            label='\s',
                             data='N'
                         )
                     ]
@@ -423,11 +423,11 @@ def Carousel_Template2():
                             uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30151&AID=30331'
                         ),
                         PostbackTemplateAction(
-                            label='',
+                            label='\s',
                             data='N'
                         ),
                         PostbackTemplateAction(
-                            label='',
+                            label='\s',
                             data='N'
                         )
                     ]
