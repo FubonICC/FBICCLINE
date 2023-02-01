@@ -450,14 +450,10 @@ def Carousel_Template3():
                         PostbackTemplateAction(
                             label='ˇ棟別-H',
                             data='A'
-                        ),
+                        ),                    
                          MessageAction(
-                            label='詳細說明',
-                            text='%戰搜'
-                        ),                       
-                         MessageAction(
-                            label='隊徽及照片',
-                            text='%圖庫戰搜'
+                            label='聯絡資訊',
+                            text='%聯絡主委'
                         )
                     ]
                 ),
@@ -468,34 +464,30 @@ def Carousel_Template3():
                     actions=[
                         PostbackTemplateAction(
                             label='棟別-F',
-                            data='這是ID=2'
+                            data='A'
                         ),
-                        MessageAction(
-                            label='詳細說明',
-                            text='%反潛'
-                        ),
-                        URITemplateAction(
-                            label='前往網頁',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30057'
+                         MessageAction(
+                            label='聯絡資訊',
+                            text='%聯絡副主委'
                         )
                     ]
                 ),
                 CarouselColumn(
                     thumbnail_image_url='https://i.imgur.com/4cwtrFf.jpg',
-                    title='海軍海洋監偵指揮部',
-                    text='海軍雷達站',
+                    title='許登欽',
+                    text='監察委員-許登欽',
                     actions=[
                         PostbackTemplateAction(
-                            label='區域：北、中、南部、外島、離島',
-                            data='這是ID=2'
+                            label='棟別-E',
+                            data='A'
                         ),
                         MessageAction(
                             label='詳細說明',
                             text='%海偵'
                         ),
-                        URITemplateAction(
-                            label='前往網頁',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30054'
+                         MessageAction(
+                            label='聯絡資訊',
+                            text='%聯絡監委'
                         )
                     ]
                 ),
