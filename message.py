@@ -103,8 +103,8 @@ def buttons_message2():
     message = TemplateSendMessage(
         alt_text='管理委員會',
         template=ButtonsTemplate(
-            thumbnail_image_url="https://navy.mnd.gov.tw/Photo/Ban/202105051632_534790.jpg",
-            title="🇹🇼管理委員會🇹🇼",
+            thumbnail_image_url="https://upload.cc/i1/2023/02/01/46eVhs.jpg",
+            title="🏢管理委員會🏢",
             text="富邦大無疆C館管理委員會",
             actions=[
                 MessageTemplateAction(

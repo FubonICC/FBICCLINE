@@ -64,18 +64,18 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     msg = event.message.text
-    if '中心服務' in msg:
-        message = imagemap_message()
-        line_bot_api.reply_message(event.reply_token, message)
-    elif '我要報名' in msg:
-        message = buttons_message()
-        line_bot_api.reply_message(event.reply_token, message)
-    elif '管理委員會' in msg:
+#    if '中心服務' in msg:
+#       message = imagemap_message()
+#        line_bot_api.reply_message(event.reply_token, message)
+#    elif '我要報名' in msg:
+#        message = buttons_message()
+#        line_bot_api.reply_message(event.reply_token, message)
+    if '管理委員會' in msg:
         message = buttons_message2()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '招募員' in msg:
-        message = Confirm_Template()
-        line_bot_api.reply_message(event.reply_token, message)
+#    elif '招募員' in msg:
+#        message = Confirm_Template()
+#        line_bot_api.reply_message(event.reply_token, message)
     elif '公設管理' in msg:
         message = Carousel_Template1()
         line_bot_api.reply_message(event.reply_token, message)
@@ -85,15 +85,15 @@ def handle_message(event):
     elif '管委會成員' in msg:
         message = Carousel_Template3()
         line_bot_api.reply_message(event.reply_token, message)
-    elif '陸岸一般' in msg:
-        message = Carousel_Template4()
-        line_bot_api.reply_message(event.reply_token, message)
-    elif '海軍影片' in msg:
-        message = test()
-        line_bot_api.reply_message(event.reply_token, message)
-    elif '功能列表' in msg:
-        message = function_list()
-        line_bot_api.reply_message(event.reply_token, message)
+#    elif '陸岸一般' in msg:
+#        message = Carousel_Template4()
+#        line_bot_api.reply_message(event.reply_token, message)
+#    elif '海軍影片' in msg:
+ #       message = test()
+#        line_bot_api.reply_message(event.reply_token, message)
+#    elif '功能列表' in msg:
+#        message = function_list()
+#        line_bot_api.reply_message(event.reply_token, message)
     elif 'I郵箱' in msg:  
         message =[ 
             TextSendMessage(
