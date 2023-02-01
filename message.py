@@ -453,7 +453,7 @@ def Carousel_Template3():
                         ),                    
                          MessageAction(
                             label='聯絡資訊',
-                            text='%聯絡主委'
+                            text='聯絡主委'
                         )
                     ]
                 ),
@@ -468,7 +468,7 @@ def Carousel_Template3():
                         ),
                          MessageAction(
                             label='聯絡資訊',
-                            text='%聯絡副主委'
+                            text='聯絡副主委'
                         )
                     ]
                 ),
@@ -481,35 +481,27 @@ def Carousel_Template3():
                             label='棟別-E',
                             data='A'
                         ),
-                        MessageAction(
-                            label='詳細說明',
-                            text='%海偵'
-                        ),
                          MessageAction(
                             label='聯絡資訊',
-                            text='%聯絡監委'
+                            text='聯絡監委'
                         )
                     ]
                 ),
                 CarouselColumn(
                     thumbnail_image_url='https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2021/12/26/realtime/14886452.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=800&exp=3600&w=930&nt=1',
-                    title='海軍海鋒大隊',
-                    text='海軍飛彈部隊',
+                    title='陳佳慧',
+                    text='財務委員-陳佳慧',
                     actions=[
                         PostbackTemplateAction(
-                            label='區域：北、中、南部、外島、離島',
-                            data='這是ID=2'
+                            label='棟別-F',
+                            data='A'
                         ),
                         MessageAction(
-                            label='詳細說明',
-                            text='%海鋒'
-                        ),
-                        URITemplateAction(
-                            label='前往網頁',
-                            uri='https://navy.mnd.gov.tw/AboutUs/Partner_Info.aspx?ID=30029&AID=30056'
+                            label='聯絡資訊',
+                            text='聯絡財委'
                         )
                     ]
-                ),
+                )
             ]
         )
     )
